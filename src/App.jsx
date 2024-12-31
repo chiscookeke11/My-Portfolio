@@ -2,6 +2,8 @@ import React from 'react'
 import Hero from './components/Hero'
 import AboutMe from './components/AboutMe'
 import Skills from './components/Skills'
+import Experience from './components/Experience'
+import Works from './components/Works'
 
 const App = () => {
   return (
@@ -10,6 +12,8 @@ const App = () => {
       <Hero/>
       <AboutMe/>
       <Skills/>
+      <Experience/>
+      <Works/>
       </div>
   )
 }
