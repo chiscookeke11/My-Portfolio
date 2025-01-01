@@ -3,6 +3,31 @@ import { FaCopy, FaEnvelope, FaGithub, FaLinkedin, FaPhone } from 'react-icons/f
 import { FaXTwitter } from 'react-icons/fa6'
 
 const Footer = () => {
+
+
+  const emailUsername = "chiscookeke11@gmail.com"
+
+  const handleEmailCopy = () => {
+    navigator.clipboard
+      .writeText(emailUsername)
+      .then(() => {
+        alert("Email copied to clipboard!");
+      })
+      .catch((err) => {
+        console.error("Failed to copy email: ", err);
+        alert("Failed to copy email. Please try again.");
+      });
+  };
+  
+
+
+
+
+
+
+
+
+
   return (
     <div className='bg-[#030712] w-full py-24 lg:px-20 px-[5%] flex flex-col items-center justify-center gap-5 text-white ' >
     <div className='flex items-center justify-center flex-col gap-2 text-center' >
@@ -11,7 +36,7 @@ const Footer = () => {
     <h1 className='flex w-full items-center justify-center gap-5 text-center font-bold text-2xl '>
         <FaEnvelope className='text-lg cursor-pointer' />
        <a href="#">chiscookeke11@gmail.com</a>
-       <FaCopy className='text-lg cursor-pointer'/>
+       <FaCopy className='text-lg cursor-pointer' onClick={handleEmailCopy} />
     </h1>
 
     <h1 className='flex w-full items-center justify-center gap-5 text-center font-bold text-2xl '>

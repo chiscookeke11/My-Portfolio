@@ -1,4 +1,5 @@
 import React from 'react'
+import { experience } from '../assets/assets'
 
 const Experience = () => {
   return (
@@ -11,12 +12,28 @@ const Experience = () => {
 
     <div className='jobs w-full flex flex-col gap-5' >
 
+ 
+       {experience.map((item, index)=> (
+         <div className='w-full flex flex-col md:flex-row items-start justify-evenly bg-[#1F2937] gap-5 px-4 py-7 overflow-hidden rounded-lg ' >
+         <div className=' basis-1/3' ><img src={item.image} alt="" className='w-[100px] ' /> </div>
+         <div className=' basis-1/3 '> <h1 className='text-lg font-bold mb-2' >{item.role} </h1>
 
-        <div className='w-full flex flex-row items-start justify-evenly bg-red-800' >
-            <div className='bg-green-500' ><h2>Graso Logo</h2> </div>
-            <div className='bg-green-500'> roles</div>
-            <div className='bg-green-500'>Sept 2024 - Present </div>
-        </div>
+           <ul  className='list-disc pl-4'  >
+             <li className='text-[#D1D5DB] font-normal text-base my-2 ' > {item.tasks.task1} </li>
+             <li className='text-[#D1D5DB] font-normal text-base my-2 '>{item.tasks.task2}</li>
+           </ul>
+
+
+
+
+
+         </div>
+
+
+
+         <div className=' basis-1/3 flex md:justify-end text-[#D1D5DB] font-normal text-base'>{item.duration} </div>
+     </div>
+       ))}
         
     </div>
 

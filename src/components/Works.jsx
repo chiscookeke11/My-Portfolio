@@ -26,7 +26,7 @@ const Works = () => {
             <a href={project.link}>
             <div className='py-2  rounded-[12px] overflow-hidden flex flex-col items-center lg:flex-row md:flex-row  w-[80vw] max-w-[1150px] h-auto md:h-[400px] lg:h-[400px] max-h-[650px] min-h-[400px] min-w-[330px] ' >
             <div className='bg-[#374151] flex items-center justify-center w-[50%] min-w-[320px] h-[100%] min-h-[250px] rounded-t-[12px] md:rounded-tr-none md:rounded-tl-[12px] md:rounded-bl-[12px] ' >
-                <video src={project.video} autoPlay loop  muted className='w-[90%] object-contain '></video>
+                <video src={project.video} autoPlay loop  muted className='w-[95%] object-contain rounded-[10px] '></video>
             </div>
 
 

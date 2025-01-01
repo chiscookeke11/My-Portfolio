@@ -7,7 +7,7 @@ const Hero = () => {
     <div className='min-h-[75vh]  bg-[#030712] flex flex-row justify-between items-center text-white py-4 lg:px-[4%] px-2 flex-wrap  ' >
 
 
-        <div className='max-w-[700px] w-[50vw] min-w-[330px] flex flex-col justify-around gap-5 mx-auto px-2 ' >
+        <div className='max-w-[700px] w-[50vw] min-w-[350px] flex flex-col justify-around gap-5 mx-auto px-2 ' >
 
             <span className='block  ' >
             <h1 className='font-[700] text-4xl lg:text-6xl leading-10 mb-3 ' >Hi, I’m Chinedu 👋</h1>

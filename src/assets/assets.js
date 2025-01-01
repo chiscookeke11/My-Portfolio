@@ -96,17 +96,37 @@ export const testimonials = [
     {
         name: "Johnbosco Izuchukwu",
         testament: "nice work",
-        image: ""
+        image: "https://res.cloudinary.com/dwedz2laa/image/upload/v1732127972/samples/smile.jpg"
     },
     {
         name: "Charles Lemuel",
         testament: "nice work",
-        image: "",
+        image: "https://res.cloudinary.com/dwedz2laa/image/upload/v1732127972/samples/smile.jpg",
     },
     {
         name: "Okeke Chinedu",
         testament: "nice work",
-        image: ""
+        image: "https://res.cloudinary.com/dwedz2laa/image/upload/v1732127972/samples/smile.jpg"
     }
+]
 
+export const experience = [
+    {
+        image: "https://res.cloudinary.com/dwedz2laa/image/upload/v1735706214/graso-logo_yfycfu.png",
+        role: "Lead Frontend Developer",
+        tasks: {
+            task1: "eat food",
+            task2: "stay fresh",
+        },
+        duration: "Sept 2024 - present"
+    },
+    {
+        image: "https://res.cloudinary.com/dwedz2laa/image/upload/v1735706214/brij-logo_tbiwfw.webp",
+        role: " Frontend Developer",
+        tasks: {
+            task1: "eat food",
+            task2: "stay fresh",
+        },
+        duration: "December 2024 - present"
+    }
 ]
