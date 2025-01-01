@@ -24,7 +24,7 @@ const Hero = () => {
 
             <span className='flex flex-row items-center gap-2 text-2xl ' >
                 <a href="https://github.com/chiscookeke11"><FaGithub/> </a>
-                <a href="https://x.com/ChiscoDbg69906"><FaXTwitter/> </a>
+                <a href="https://x.com/chisco_JS"><FaXTwitter/> </a>
                 <a href="https://www.linkedin.com/in/chinedu-okeke-4080b8292/"><FaLinkedin/> </a>
             </span>
 

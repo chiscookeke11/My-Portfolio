@@ -1,7 +1,7 @@
 export const skills = [
     {
         name: "Vanilla CSS",
-        image: "https://res.cloudinary.com/dwedz2laa/image/upload/v1735674178/CSS_hc7nnn.jpg",
+        image: "https://res.cloudinary.com/dwedz2laa/image/upload/v1735700622/css-3-logo-svgrepo-com_kzerab.svg",
     },
     {
         name: "Tailwind CSS",
@@ -39,7 +39,8 @@ export const projects = [
             language2: "CSS",
             language3: "Tailwind Css"
         },
-        image: "https://res.cloudinary.com/dwedz2laa/image/upload/v1735650052/chrome_SYaCwY0hOp_d1ugse.png",
+        video: "https://res.cloudinary.com/dwedz2laa/video/upload/v1735702750/chrome_wxFd23u05i_sohlie.mp4",
+        link: "https://grasoo.vercel.app/",
     },
     {
         name: "BRIJ",
@@ -49,7 +50,8 @@ export const projects = [
             language2: "CSS",
             language3: "Tailwind Css"
         },
-        image: "https://res.cloudinary.com/dwedz2laa/image/upload/v1735653647/chrome_cWpZBXFROd_byn3sb.png",
+        video: "https://res.cloudinary.com/dwedz2laa/video/upload/v1735702173/chrome_V2zZojYChu_u5xqj1.mp4",
+        link: "https://brij-org.vercel.app/",
     },
     {
         name: "ChainTrail",
@@ -59,7 +61,8 @@ export const projects = [
             language2: "CSS",
             language3: "Tailwind Css"
         },
-        image: "https://res.cloudinary.com/dwedz2laa/image/upload/v1735653621/chrome_0l30YSyo99_ltcx7e.png",
+        video: "https://res.cloudinary.com/dwedz2laa/video/upload/v1735702148/chrome_YE0J5mhlaj_oprcvu.mp4",
+        link: "https://chaintrail.vercel.app/",
     },
     {
         name: "Book Store",
@@ -69,7 +72,8 @@ export const projects = [
             language2: "CSS",
             language3: "Tailwind Css"
         },
-        image: "https://res.cloudinary.com/dwedz2laa/image/upload/v1735653607/chrome_3UerMa02Nb_lw9mwx.png",
+        video: "https://res.cloudinary.com/dwedz2laa/video/upload/v1735702633/chrome_1p2rCZ9X7T_xivood.mp4",
+        link: "https://book-store-fixed2.vercel.app/",
     },
     {
         name: "Mega Mart",
@@ -79,10 +83,30 @@ export const projects = [
             language2: "CSS",
             language3: "Tailwind Css"
         },
-        image: "https://res.cloudinary.com/dwedz2laa/image/upload/v1735653645/chrome_JlXI9h5FPl_xdhvxf.png",
+        video: "https://res.cloudinary.com/dwedz2laa/video/upload/v1735702133/chrome_hncA1OA0DP_llasp9.mp4",
+        link: "https://mega-mart-ashen.vercel.app/",
     },
     
     
 
+
+]
+
+export const testimonials = [
+    {
+        name: "Johnbosco Izuchukwu",
+        testament: "nice work",
+        image: ""
+    },
+    {
+        name: "Charles Lemuel",
+        testament: "nice work",
+        image: "",
+    },
+    {
+        name: "Okeke Chinedu",
+        testament: "nice work",
+        image: ""
+    }
 
 ]

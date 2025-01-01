@@ -3,7 +3,7 @@ import { projects } from '../assets/assets'
 
 const Works = () => {
 
-    const [slice, setSlice] =  useState(2)
+    const [slice, setSlice] =  useState(3)
 
     const increaseSlice = () => {
         setSlice((prevSlice) => Math.min(prevSlice + 2), projects.length )
@@ -23,9 +23,10 @@ const Works = () => {
     <div className='flex flex-col items-center justify-center mt-4 w-full   ' >
 
         {projects.slice(0, slice).map((project, index) => (
+            <a href={project.link}>
             <div className='py-2  rounded-[12px] overflow-hidden flex flex-col items-center lg:flex-row md:flex-row  w-[80vw] max-w-[1150px] h-auto md:h-[400px] lg:h-[400px] max-h-[650px] min-h-[400px] min-w-[330px] ' >
             <div className='bg-[#374151] flex items-center justify-center w-[50%] min-w-[320px] h-[100%] min-h-[250px] rounded-t-[12px] md:rounded-tr-none md:rounded-tl-[12px] md:rounded-bl-[12px] ' >
-                <img src={project.image} className='w-[90%] object-contain '  alt="" />
+                <video src={project.video} autoPlay loop  muted className='w-[90%] object-contain '></video>
             </div>
 
 
@@ -41,6 +42,7 @@ const Works = () => {
                 </ul>
             </div>
         </div>
+        </a>
         ))  }
 
 

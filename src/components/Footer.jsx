@@ -22,9 +22,9 @@ const Footer = () => {
 
     <p className='text-sm  mt-[6%]  max-w-[450px] ' >You may also find me on these platforms! </p>
     <span className=' flex flex-row items-center justify-center gap-3' >
-        <a href="#"><FaGithub/></a>
-        <a href="#"><FaXTwitter/></a>
-        <a href="#"><FaLinkedin/></a>
+        <a href="https://github.com/chiscookeke11"><FaGithub/></a>
+        <a href="https://x.com/chisco_JS"><FaXTwitter/></a>
+        <a href="https://www.linkedin.com/in/chinedu-okeke-4080b8292/"><FaLinkedin/></a>
     </span>
     </div>
 
