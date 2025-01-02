@@ -1,14 +1,14 @@
 import React from 'react'
 
-const AboutMe = () => {
+const AboutMe = ({darkMode}) => {
   return (
-    <div className='bg-[#111827] text-white py-24 lg:px-20 px-[5%] flex flex-col items-center justify-center gap-5 ' >
-        <h1 className='bg-[#374151] px-5 py-1 rounded-xl font-[500] text-sm ' >About me</h1>
+    <div className={`py-24 lg:px-20 px-[5%] flex flex-col items-center justify-center gap-5 ${darkMode? "bg-[#111827] text-white ": "bg-[#F9FAFB] text-[#111827] " } `} >
+        <h1 className={`px-5 py-1 rounded-xl font-[500] text-sm ${darkMode? "bg-[#374151] " : "text-[#4B5563] bg-[#E5E7EB] " } `} >About me</h1>
 
         <div className='mt-[10%] lg:mt-[6%] flex flex-row items-start justify-between w-full flex-wrap gap-5' >
 
-            <div className='lg:w-[300px] lg:h-[380px] w-[250px] h-[300px]  relative bg-[#374151] mx-auto   ' >
-                <img src="https://github.com/chiscookeke11/Test-pagea/blob/main/nedu.jpg?raw=true" alt="" className='w-full h-full absolute top-[-7%] right-[-10%]  object-cover border-8 border-[#111827] '  />
+            <div className={`lg:w-[300px] lg:h-[380px] w-[250px] h-[300px]  relative  mx-auto  ${darkMode? "bg-[#374151]" : "bg-[#E5E7EB] " }`} >
+                <img src="https://github.com/chiscookeke11/Test-pagea/blob/main/nedu.jpg?raw=true" alt="" className={`w-full h-full absolute top-[-7%] right-[-10%]  object-cover border-8   ${darkMode? "border-[#111827]" : "border-[#E5E7EB]" }`}  />
             </div>
 
 
@@ -19,7 +19,7 @@ const AboutMe = () => {
 
             <div className='max-w-[580px] min-w-sm mx-auto '>
                 <h1 className='text-3xl font-semibold mb-2 text-center lg:text-left md:text-left  ' >Curious about me? Here you have it:</h1>
-                <p className='flex flex-col items-start text-justify gap-4 text-[#D1D5DB] text-base' >
+                <p className={`flex flex-col items-start text-justify gap-4  text-base ${darkMode? "text-[#D1D5DB]" : "text-[#4B5563] " } `} >
 
                     <span>I'm a passionate, self-proclaimed designer who specializes in full stack development (React.js & Node.js). I am very enthusiastic about bringing the technical and visual aspects of digital products to life. User experience, pixel perfect design, and writing clear, readable, highly performant code matters to me.</span>
 
