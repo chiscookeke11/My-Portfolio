@@ -5,7 +5,7 @@ import './index.css';
 import App from './App.jsx';
 
 function Main() {
-  const [mode, setMode] = useState(false);
+  const [mode, setMode] = useState(true);
 
   const toggleMode = () => {
     setMode((prevMode) => !prevMode);
