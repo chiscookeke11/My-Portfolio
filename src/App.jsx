@@ -8,17 +8,17 @@ import Footer from './components/Footer'
 import Testimonials from './components/Testimonials'
 import Navbar from './components/Navbar'
 
-const App = () => {
+const App = ({darkMode, toggleMode}) => {
   return (
-    <div className='bg-[#030712] w-full h-auto ' >
-      <Navbar/>
-      <Hero/>
-      <AboutMe/>
-      <Skills/>
-      <Experience/>
-      <Works/>
-      <Testimonials/>
-      <Footer/>
+    <div className= {` w-full h-auto transition duration-300 ease-in-out  ${darkMode? "bg-[#030712]" : "bg-white" } `} > 
+      <Navbar darkMode={darkMode} toggleMode={toggleMode}  />
+      <Hero darkMode={darkMode}/>
+      <AboutMe darkMode={darkMode}/>
+      <Skills darkMode={darkMode}/>
+      <Experience darkMode={darkMode}/>
+      <Works darkMode={darkMode}/>
+      <Testimonials darkMode={darkMode}/>
+      <Footer darkMode={darkMode}/>
       </div>
   )
 }
