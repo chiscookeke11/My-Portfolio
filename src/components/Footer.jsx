@@ -6,6 +6,7 @@ const Footer = () => {
 
 
   const emailUsername = "chiscookeke11@gmail.com"
+  const phoneNumber = "09036531295"
 
   const handleEmailCopy = () => {
     navigator.clipboard
@@ -18,7 +19,17 @@ const Footer = () => {
         alert("Failed to copy email. Please try again.");
       });
   };
-  
+  const handlePhoneCopy = () => {
+    navigator.clipboard
+    .writeText(phoneNumber)
+    .then(() => {
+      alert("Phone Number copied to clipboard")
+    })
+    .catch((err) => {
+      console.error("failed to copy phone number: ", err);
+      alert("failed to copy phone number. please try again")
+    } )
+  }
 
 
 
@@ -35,14 +46,14 @@ const Footer = () => {
     <p className='text-lg  mb-[6%] mt-[2%]  max-w-[500px] ' >What’s next? Feel free to reach out to me if you're looking for a developer, have a query, or simply want to connect.</p>
     <h1 className='flex w-full items-center justify-center gap-5 text-center font-bold text-2xl '>
         <FaEnvelope className='text-lg cursor-pointer' />
-       <a href="#">chiscookeke11@gmail.com</a>
+       <a href='mailto:chiscookeke11@gmail.com' target='_blank' >chiscookeke11@gmail.com</a>
        <FaCopy className='text-lg cursor-pointer' onClick={handleEmailCopy} />
     </h1>
 
     <h1 className='flex w-full items-center justify-center gap-5 text-center font-bold text-2xl '>
         <FaPhone className='text-lg cursor-pointer' />
        <a href="#">09036531295</a>
-       <FaCopy className='text-lg cursor-pointer'/>
+       <FaCopy className='text-lg cursor-pointer' onClick={handlePhoneCopy} />
     </h1>
 
     <p className='text-sm  mt-[6%]  max-w-[450px] ' >You may also find me on these platforms! </p>
