@@ -46,7 +46,7 @@ const Footer = () => {
     <p className='text-lg  mb-[6%] mt-[2%]  max-w-[500px] ' >What’s next? Feel free to reach out to me if you're looking for a developer, have a query, or simply want to connect.</p>
     <h1 className='flex w-full items-center justify-center gap-5 text-center font-bold text-2xl '>
         <FaEnvelope className='text-lg cursor-pointer' />
-       <a href='mailto:chiscookeke11@gmail.com' target='_blank' >chiscookeke11@gmail.com</a>
+       <a href='https://mail.google.com/mail/?view=cm&fs=1&to=chiscookeke11@gmail.com' target='_blank' >chiscookeke11@gmail.com</a>
        <FaCopy className='text-lg cursor-pointer' onClick={handleEmailCopy} />
     </h1>
 
