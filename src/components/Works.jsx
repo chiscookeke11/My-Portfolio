@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { projects } from '../assets/assets'
 
-const Works = () => {
+const Works = ({darkMode}) => {
 
     const [slice, setSlice] =  useState(3)
 
@@ -12,20 +12,20 @@ const Works = () => {
 
 
   return (
-    <div className='bg-[#030712] w-full py-24 lg:px-20 px-[5%] flex flex-col items-center justify-center gap-5 text-white ' >
+    <div className={` w-full py-24 lg:px-20 px-[5%] flex flex-col items-center justify-center gap-5  ${darkMode?"bg-[#030712] text-white" : "bg-[#ffffff] text-[#4B5563] " }  `} >
     <div className='flex items-center justify-center flex-col gap-2 text-center' >
-    <h1 className='bg-[#374151] px-5 py-1 rounded-xl font-[500] text-sm text-[#D1D5DB] w-fit ' >Works</h1>
+    <h1 className={` px-5 py-1 rounded-xl font-[500] text-sm w-fit  ${darkMode? "bg-[#374151]  text-[#D1D5DB]" : "bg-[#E5E7EB] "} `} >Works</h1>
     <p className='text-lg  ' >Some of the noteworthy projects I have built:</p>
     </div>
 
 
 
-    <div className='flex flex-col items-center justify-center mt-4 w-full   ' >
+    <div className='flex flex-col gap-7 items-center justify-center mt-4 w-full   ' >
 
         {projects.slice(0, slice).map((project, index) => (
-            <a href={project.link}>
-            <div className='py-2  rounded-[12px] overflow-hidden flex flex-col items-center lg:flex-row md:flex-row  w-[80vw] max-w-[1150px] h-auto md:h-[400px] lg:h-[400px] max-h-[650px] min-h-[400px] min-w-[330px] ' >
-            <div className='bg-[#374151] flex items-center justify-center w-[50%] min-w-[320px] h-[100%] min-h-[250px] rounded-t-[12px] md:rounded-tr-none md:rounded-tl-[12px] md:rounded-bl-[12px] ' >
+            <a key={index} href={project.link}>
+            <div className={`py-2  rounded-[12px] overflow-hidden flex flex-col items-center lg:flex-row md:flex-row  w-[80vw] max-w-[1150px] h-auto md:h-[400px] lg:h-[400px] max-h-[650px] min-h-[400px] min-w-[330px] ${darkMode? "bg-white" : "bg-[#ffffff] shadow-xl " } `} >
+            <div className={` flex items-center justify-center w-[50%] min-w-[320px] h-[100%] min-h-[250px] rounded-t-[12px] md:rounded-tr-none md:rounded-tl-[12px] md:rounded-bl-[12px]  ${darkMode? "bg-[#374151]" : "bg-[#F9FAFB] border-[#F9FAFB] "} `} >
                 <video src={project.video} autoPlay loop  muted className='w-[95%] object-contain rounded-[10px] '></video>
             </div>
 
