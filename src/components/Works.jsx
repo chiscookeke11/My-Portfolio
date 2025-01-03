@@ -24,21 +24,21 @@ const Works = ({darkMode}) => {
 
         {projects.slice(0, slice).map((project, index) => (
             <a key={index} href={project.link}>
-            <div className={`py-2  rounded-[12px] overflow-hidden flex flex-col items-center lg:flex-row md:flex-row  w-[80vw] max-w-[1150px] h-auto md:h-[400px] lg:h-[400px] max-h-[650px] min-h-[400px] min-w-[330px] ${darkMode? "bg-white" : "bg-[#ffffff] shadow-xl " } `} >
+            <div className={`py-2  rounded-[12px] overflow-hidden flex flex-col items-center lg:flex-row md:flex-row  w-[80vw] max-w-[1150px] h-auto md:h-[400px] lg:h-[400px] max-h-[650px] min-h-[400px] min-w-[330px] ${darkMode? null : "bg-[#ffffff] shadow-xl " } `} >
             <div className={` flex items-center justify-center w-[50%] min-w-[320px] h-[100%] min-h-[250px] rounded-t-[12px] md:rounded-tr-none md:rounded-tl-[12px] md:rounded-bl-[12px]  ${darkMode? "bg-[#374151]" : "bg-[#F9FAFB] border-[#F9FAFB] "} `} >
                 <video src={project.video} autoPlay loop  muted className='w-[95%] object-contain rounded-[10px] '></video>
             </div>
 
 
-            <div className='bg-[#1F2937] flex flex-col items-start justify-between py-[5%] px-[3%] w-[50%] min-w-[320px] h-[100%] rounded-b-[12px] md:rounded-bl-none md:rounded-tr-[12px] md:rounded-br-[12px] ' >
-                <h1 className='text-white text-xl font-[500] my-2 ' >{project.name} </h1>
-                <p className='text-[#D1D5DB] text-base font-normal my-2  ' >{project.Description}</p>
+            <div className={` flex flex-col items-start justify-between py-[5%] px-[3%] w-[50%] min-w-[320px] h-[100%] rounded-b-[12px] md:rounded-bl-none md:rounded-tr-[12px] md:rounded-br-[12px] ${darkMode? "bg-[#1F2937]" : "bg-[#fff] "} `} >
+                <h1 className={` text-xl font-[500] my-2 ${darkMode? "text-white" : "text-[#111827] "} `} >{project.name} </h1>
+                <p className={` text-base font-normal my-2 ${darkMode? "text-[#D1D5DB]" : "text-[#4B5563]"} `} >{project.Description}</p>
             
 
                 <ul className='w-full flex flex-row flex-wrap items-center gap-3' >
-                    <li className='px-4 py-1 bg-[#374151] rounded-[12px] text-xs font-normal text-center ' >{project.languages.language1}</li>
-                    <li  className='px-4 py-1 bg-[#374151] rounded-[12px] text-xs font-normal text-center '>{project.languages.language2}</li>
-                    <li  className='px-4 py-1 bg-[#374151] rounded-[12px] text-xs font-normal text-center '>{project.languages.language3}</li>
+                    <li className={`px-4 py-1  rounded-[12px] text-xs font-normal text-center ${darkMode?  "bg-[#374151]" : "bg-[#E5E7EB] " }`} >{project.languages.language1}</li>
+                    <li className={`px-4 py-1  rounded-[12px] text-xs font-normal text-center ${darkMode?  "bg-[#374151]" : "bg-[#E5E7EB] " }`}>{project.languages.language2}</li>
+                    <li className={`px-4 py-1  rounded-[12px] text-xs font-normal text-center ${darkMode?  "bg-[#374151]" : "bg-[#E5E7EB] " }`}>{project.languages.language3}</li>
                 </ul>
             </div>
         </div>
@@ -48,7 +48,7 @@ const Works = ({darkMode}) => {
 
 
 
-<button onClick={increaseSlice} disabled={slice >= projects.length} className='mt-5  font-bold px-4 py-2 bg-[#374151] rounded-[6px] ' >See More</button>
+<button onClick={increaseSlice} disabled={slice >= projects.length} className={`mt-5  font-bold px-4 py-2  rounded-[6px] ${darkMode? "bg-[#374151]" : "bg-[#E5E7EB] text-[#4B5563]" } ${slice >= projects.length? "cursor-not-allowed" : null } `} >See More</button>
 
 
 
