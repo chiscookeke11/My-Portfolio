@@ -17,8 +17,8 @@ const Skills = ({darkMode}) => {
 
         {
           skills.map((skill, index) =>(
-            <div key={index} className='flex flex-col items-center justify-center gap-1 w-[88px] h-[92px]  my-3 mx-1 text-center ' >
-              <img src={skill.image} alt={skill.name} className='w-70px h-70px object-contain  ' />
+            <div key={index} className='flex flex-col items-center justify-center gap-1 w-[88px] h-[92px]  my-3 mx-1 text-center  ' >
+              <img src={skill.image} alt={skill.name} className='w-[50px] object-contain  ' />
               <h1 className={` font-normal text-base ${darkMode? "text-[#D1D5DB]" : "null"} `} >{skill.name} </h1>
             </div>
           ) )

@@ -10,9 +10,8 @@ const Hero = ({darkMode}) => {
         <div className='max-w-[700px] w-[50vw] min-w-[350px] flex flex-col justify-around gap-5 mx-auto px-2 ' >
 
             <span className='block  ' >
-            <h1 className='font-[700] text-4xl lg:text-6xl leading-10 mb-3 ' >Hi, I’m Chinedu 👋</h1>
-            <p className={` text-base font-normal leading-[24px] ${darkMode? "text-[#D1D5DB]" : "text-[#030712] " } `}   >I'm a frontend developer with expertise in React.js and Next.js, passionate about creating exceptional digital experiences that are fast, accessible, visually appealing, and responsive. With over 3 years of experience building web applications, I approach each project with the same excitement and dedication as when I first started.</p>
-
+            <h1 className='font-[700] text-3xl lg:text-5xl leading-10 mb-3 whitespace-nowrap ' >Hi, I’m Okeke Chinedu 👋</h1>
+            <p className={` text-base font-normal leading-[24px] ${darkMode? "text-[#D1D5DB]" : "text-[#030712] " } `}   >Frontend developer specializing in React.js and Next.js, with 3 years' experience crafting fast, accessible, and responsive web applications. Committed to delivering exceptional digital experiences. </p>
             </span>
 
 

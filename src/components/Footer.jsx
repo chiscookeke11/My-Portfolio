@@ -40,7 +40,7 @@ const Footer = ({darkMode}) => {
 
 
   return (
-    <div className={` w-full py-24 lg:px-20 px-[5%] flex flex-col items-center justify-center gap-5  ${darkMode? "bg-[#030712] text-white" : "bg-[#FFFFFF] text-[#4B5563] "} `} >
+    <div id='contact' className={` w-full py-24 lg:px-20 px-[5%] flex flex-col items-center justify-center gap-5  ${darkMode? "bg-[#030712] text-white" : "bg-[#FFFFFF] text-[#4B5563] "} `} >
     <div className='flex items-center justify-center flex-col gap-2 text-center' >
     <h1 className={` px-5 py-1 rounded-xl font-[500] text-sm  w-fit ${darkMode? "bg-[#374151] text-[#D1D5DB]" : "bg-[#E5E7EB] text-[#4B5563] "} `} >Get in touch</h1>
     <p className='text-lg  mb-[6%] mt-[2%]  max-w-[500px] ' >What’s next? Feel free to reach out to me if you're looking for a developer, have a query, or simply want to connect.</p>
@@ -52,7 +52,7 @@ const Footer = ({darkMode}) => {
 
     <h1 className= {`flex w-full items-center justify-center gap-5 text-center font-bold text-2xl ${darkMode? "null" : "text-[#111827] "} `} >
         <FaPhone className='text-lg cursor-pointer' />
-       <a href="#">09036531295</a>
+        <a href="https://wa.me/2349036531295?text=Hello!%20I%20need%20assistance." target="_blank" rel="noopener noreferrer">  +234 903 653 1295</a>
        <FaCopy className='text-lg cursor-pointer' onClick={handlePhoneCopy} />
     </h1>
 

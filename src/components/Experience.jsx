@@ -19,8 +19,8 @@ const Experience = ({darkMode}) => {
          <div className=' basis-1/3 '> <h1 className={`text-lg font-bold mb-2 ${darkMode? "null " : "text-[#111827] "} `} >{item.role} </h1>
 
            <ul  className='list-disc pl-4'  >
-             <li  className={` font-normal text-base my-2 ${darkMode? "text-[#D1D5DB] " : "text-[#4B5563] "} `} > {item.tasks.task1} </li>
-             <li className={` font-normal text-base my-2 ${darkMode? "text-[#D1D5DB] " : "text-[#4B5563] "} `}>{item.tasks.task2}</li>
+             <li  className={` font-normal text-sm my-2 ${darkMode? "text-[#D1D5DB] " : "text-[#4B5563] "} `} > {item.tasks.task1} </li>
+             <li className={` font-normal text-sm my-2 ${darkMode? "text-[#D1D5DB] " : "text-[#4B5563] "} `}>{item.tasks.task2}</li>
            </ul>
 
 

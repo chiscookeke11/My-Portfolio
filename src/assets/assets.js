@@ -95,17 +95,17 @@ export const projects = [
 export const testimonials = [
     {
         name: "Johnbosco Izuchukwu",
-        testament: "nice work",
+        testament: "Working with Chinedu was great. He delivers high-quality code, are always on time, and communicate effectively.",
         image: "https://res.cloudinary.com/dwedz2laa/image/upload/v1732127972/samples/smile.jpg"
     },
     {
-        name: "Charles Lemuel",
-        testament: "nice work",
+        name: "Chimaobi Okoli",
+        testament: "Chinedu translates design into flawless, user-friendly websites. He has a great eye for detail and ensure the UI is both beautiful and functional.",
         image: "https://res.cloudinary.com/dwedz2laa/image/upload/v1732127972/samples/smile.jpg",
     },
     {
-        name: "Okeke Chinedu",
-        testament: "nice work",
+        name: "James Doe ",
+        testament: "I’m thrilled with the website Chinedu built for us. It's responsive, user-friendly, and perfectly reflects our vision. Highly recommended!",
         image: "https://res.cloudinary.com/dwedz2laa/image/upload/v1732127972/samples/smile.jpg"
     }
 ]
@@ -115,8 +115,8 @@ export const experience = [
         image: "https://res.cloudinary.com/dwedz2laa/image/upload/v1735706214/graso-logo_yfycfu.png",
         role: "Lead Frontend Developer",
         tasks: {
-            task1: "eat food",
-            task2: "stay fresh",
+            task1: "Led a team of 3 frontend developers in developing a real estate fractional ownership platform, delivering the project within a tight two-week timeline",
+            task2: "Architected the frontend infrastructure using React.js and implemented responsive designs with Tailwind CSS and custom CSS solutions",
         },
         duration: "Sept 2024 - present"
     },
@@ -124,8 +124,8 @@ export const experience = [
         image: "https://res.cloudinary.com/dwedz2laa/image/upload/v1735706214/brij-logo_tbiwfw.webp",
         role: " Frontend Developer",
         tasks: {
-            task1: "eat food",
-            task2: "stay fresh",
+            task1: "Ensured code quality and consistency across the team while meeting project deadlines and technical requirements",
+            task2: "Oversaw the implementation of user-centric features that facilitated startup fundraising through a decentralized platform, making capital raising more accessible and transparent.",
         },
         duration: "December 2024 - present"
     }

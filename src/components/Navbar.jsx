@@ -16,6 +16,7 @@ const Navbar = ({darkMode, toggleMode}) => {
         setOpenNav(false)
     }
 
+    
 
 
 
@@ -29,17 +30,19 @@ const Navbar = ({darkMode, toggleMode}) => {
 
 
         <ul className={`hidden lg:flex items-center justify-center w-fit flex-row list-none ${darkMode? "text-[#D1D5DB]": "text-[#4B5563]"}  `} >
-            <li className={`font-[500] text-base mx-4  transition duration-300 ease-in-out  ${darkMode? "hover:text-white" : "hover:text-[#111827]" } `} ><a href="#">About </a></li>
-            <li className={`font-[500] text-base mx-4  transition duration-300 ease-in-out  ${darkMode? "hover:text-white" : "hover:text-[#111827]" } `}><a href="#">Work </a></li>
-            <li className={`font-[500] text-base mx-4  transition duration-300 ease-in-out  ${darkMode? "hover:text-white" : "hover:text-[#111827]" } `}><a href="#">Testimonials </a></li>
-            <li className={`font-[500] text-base mx-4  transition duration-300 ease-in-out  ${darkMode? "hover:text-white" : "hover:text-[#111827]" } `}><a href="#">Contact </a></li>
+            <li className={`font-[500] text-base mx-4  transition duration-300 ease-in-out  ${darkMode? "hover:text-white" : "hover:text-[#111827]" } `} ><a href="#about">About </a></li>
+            <li className={`font-[500] text-base mx-4  transition duration-300 ease-in-out  ${darkMode? "hover:text-white" : "hover:text-[#111827]" } `}><a href="#work">Work </a></li>
+            <li className={`font-[500] text-base mx-4  transition duration-300 ease-in-out  ${darkMode? "hover:text-white" : "hover:text-[#111827]" } `}><a href="#testimonials">Testimonials </a></li>
+            <li className={`font-[500] text-base mx-4  transition duration-300 ease-in-out  ${darkMode? "hover:text-white" : "hover:text-[#111827]" } `}><a href="#contact">Contact </a></li>
             <li className={`font-[500] text-base mx-4 ml-9 transition duration-300 ease-in-out cursor-pointer ${darkMode? "hover:text-white" : "hover:text-[#111827]" }`} onClick={toggleMode} > {darkMode? <FaSun/> :  <FaMoon/> } </li>
-            <button className={`font-[500] text-base mx-4  rounded-2xl px-4 py-3 ${darkMode? "bg-[#F9FAFB] text-[#111827]": " bg-[#111827] text-[#F9FAFB]" } `} >Download CV</button>
+            <button  className={`font-[500] text-base mx-4  rounded-2xl px-4 py-3 ${darkMode? "bg-[#F9FAFB] text-[#111827]": " bg-[#111827] text-[#F9FAFB]" } `} >Download CV</button>
         </ul>
       
 
 
        <button  className='block lg:hidden text-2xl' onClick={handleNav} > <FaBars  /> </button>
+
+
 
 
 
