@@ -9,6 +9,7 @@ const AboutMe = ({darkMode}) => {
     data-aos="fade-in"
     data-aos-delay="50"
     data-aos-duration="500"
+    data-aos-once="true"
     data-aos-easing="ease-in-out" 
      className={`py-24 lg:px-20 px-[5%] flex flex-col items-center justify-center gap-5 ${darkMode? "bg-[#111827] text-white ": "bg-[#F9FAFB] text-[#111827] " } `} >
         <h1 className={`px-5 py-1 rounded-xl font-[500] text-sm ${darkMode? "bg-[#374151] " : "text-[#4B5563] bg-[#E5E7EB] " } `} >About me</h1>

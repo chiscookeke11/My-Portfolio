@@ -13,6 +13,7 @@ const Hero = ({darkMode}) => {
     <div  data-aos="fade-in"
     data-aos-delay="50"
     data-aos-duration="500"
+    data-aos-once="true"
     data-aos-easing="ease-in-out"
      className={`min-h-[75vh]   flex flex-row justify-between items-center  py-4 lg:px-[4%] px-2 flex-wrap ${darkMode? "bg-[#030712] text-white" : "bg-white text-[#030712] " } `} >
 

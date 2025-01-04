@@ -10,6 +10,7 @@ const Skills = ({darkMode}) => {
     data-aos="fade-in"
     data-aos-delay="50"
     data-aos-duration="500"
+    data-aos-once="true"
     data-aos-easing="ease-in-out"
     className={` w-full py-24 lg:px-20 px-[5%] flex flex-col items-center justify-center gap-5  ${darkMode? "bg-[#030712] text-white" : "bg-[#ffffff] text-[#4B5563] " } `} >
       <div className='flex items-center justify-center flex-col gap-2 text-center' >

@@ -20,6 +20,7 @@ const Works = ({darkMode}) => {
     data-aos-delay="50"
     data-aos-duration="500"
     data-aos-easing="ease-in-out" 
+    data-aos-once="true"
      id='work' className={` w-full py-24 lg:px-20 px-[5%] flex flex-col items-center justify-center gap-5  ${darkMode?"bg-[#030712] text-white" : "bg-[#ffffff] text-[#4B5563] " }  `} >
     <div className='flex items-center justify-center flex-col gap-2 text-center' >
     <h1 className={` px-5 py-1 rounded-xl font-[500] text-sm w-fit  ${darkMode? "bg-[#374151]  text-[#D1D5DB]" : "bg-[#E5E7EB] "} `} >Works</h1>
