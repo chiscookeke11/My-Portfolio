@@ -35,12 +35,13 @@ const Navbar = ({darkMode, toggleMode}) => {
             <li className={`font-[500] text-base mx-4  transition duration-300 ease-in-out  ${darkMode? "hover:text-white" : "hover:text-[#111827]" } `}><a href="#testimonials">Testimonials </a></li>
             <li className={`font-[500] text-base mx-4  transition duration-300 ease-in-out  ${darkMode? "hover:text-white" : "hover:text-[#111827]" } `}><a href="#contact">Contact </a></li>
             <li className={`font-[500] text-base mx-4 ml-9 transition duration-300 ease-in-out cursor-pointer ${darkMode? "hover:text-white" : "hover:text-[#111827]" }`} onClick={toggleMode} > {darkMode? <FaSun/> :  <FaMoon/> } </li>
-            <button  className={`font-[500] text-base mx-4  rounded-2xl px-4 py-3 ${darkMode? "bg-[#F9FAFB] text-[#111827]": " bg-[#111827] text-[#F9FAFB]" } `} >Download CV</button>
+            <a href="../assets/OkekeChinedu-Resume_eoy2gs.pdf" download  className={`font-[500] text-sm mx-4  rounded-2xl px-4 py-3 ${darkMode? "bg-[#F9FAFB] text-[#111827]": " bg-[#111827] text-[#F9FAFB]" } `} >Download Resume</a>
         </ul>
       
 
 
        <button  className='block lg:hidden text-2xl' onClick={handleNav} > <FaBars  /> </button>
+
 
 
 
@@ -67,17 +68,21 @@ const Navbar = ({darkMode, toggleMode}) => {
         </div>
 
        <ul className= {`flex flex-col items-start justify-center px-6   list-none border-b border-t border-[#1F2937] w-full py-2 ${darkMode? "text-[#d1d5db]" : "text-[#4B5563]" } `} >
-            <li className= {`font-[500] text-lg my-4 hover:text-white transition duration-300 ease-in-out ${darkMode? "hover:text-white" : "hover:text-[#111827]" }  `}><a href="#">About </a></li>
-            <li className= {`font-[500] text-lg my-4 hover:text-white transition duration-300 ease-in-out ${darkMode? "hover:text-white" : "hover:text-[#111827]" }  `}><a href="#">Work </a></li>
-            <li className= {`font-[500] text-lg my-4 hover:text-white transition duration-300 ease-in-out ${darkMode? "hover:text-white" : "hover:text-[#111827]" }  `}><a href="#">Testimonials </a></li>
-            <li  className= {`font-[500] text-lg my-4 hover:text-white transition duration-300 ease-in-out ${darkMode? "hover:text-white" : "hover:text-[#111827]" }  `}><a href="#">Contact </a></li>
+             <li onClick={closeNav}  className= {`font-[500] text-lg my-4 hover:text-white transition duration-300 ease-in-out ${darkMode? "hover:text-white" : "hover:text-[#111827]" }  `}><a href="#about">About </a></li>
+            <li onClick={closeNav}  className= {`font-[500] text-lg my-4 hover:text-white transition duration-300 ease-in-out ${darkMode? "hover:text-white" : "hover:text-[#111827]" }  `}><a href="#work">Work </a></li>
+            <li onClick={closeNav}  className= {`font-[500] text-lg my-4 hover:text-white transition duration-300 ease-in-out ${darkMode? "hover:text-white" : "hover:text-[#111827]" }  `}><a href="#testimonials">Testimonials </a></li>
+            <li onClick={closeNav}  className= {`font-[500] text-lg my-4 hover:text-white transition duration-300 ease-in-out ${darkMode? "hover:text-white" : "hover:text-[#111827]" }  `}><a href="#contact">Contact </a></li>
         </ul>
 
 
 
         <div className='w-full flex flex-col items-start justify-center gap-7 py-2 px-6 ' >
         <div onClick={toggleMode} className={` font-[500] text-lg cursor-pointer  transition duration-300 ease-in-out flex flex-row justify-between w-full ${darkMode? "text-[#D1D5DB] hover:text-white" : "text-[#4B5563] hover:text-[#111827]"  } ` }><p>Switch Theme </p>    <button   > {darkMode? <FaSun/> :  <FaMoon/>}</button></div>
-        <button className={`${darkMode? "bg-[#F9FAFB] text-[#111827]" : "bg-[#111827] text-[#D1D5DB]" }  font-[500] text-base  rounded-2xl px-4 py-3 w-full  max-w-[400px]`} >Download CV</button>
+        <a onClick={closeNav}  
+         href="../assets/OkekeChinedu-Resume_eoy2gs.pdf" 
+         download  
+         className={`${darkMode? "bg-[#F9FAFB] text-[#111827]" : "bg-[#111827] text-[#D1D5DB]" } text-center  font-[500] text-base  rounded-2xl px-4 py-3 w-full  max-w-[400px]`} >
+            Download Resume</a>
         </div>
        </div>
 

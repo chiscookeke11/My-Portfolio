@@ -52,7 +52,7 @@ const Footer = ({darkMode}) => {
 
     <h1 className= {`flex w-full items-center justify-center gap-5 text-center font-bold text-2xl ${darkMode? "null" : "text-[#111827] "} `} >
         <FaPhone className='text-lg cursor-pointer' />
-        <a href="https://wa.me/2349036531295?text=Hello!%20I%20need%20assistance." target="_blank" rel="noopener noreferrer">  +234 903 653 1295</a>
+        <a href="https://wa.me/2349036531295?text=Hello!%20I%20need20%a20%website." target="_blank" rel="noopener noreferrer">  +234 903 653 1295</a>
        <FaCopy className='text-lg cursor-pointer' onClick={handlePhoneCopy} />
     </h1>
 
