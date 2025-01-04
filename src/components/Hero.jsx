@@ -1,10 +1,20 @@
 import React from 'react'
 import { FaGithub, FaLinkedin, FaMapMarkerAlt } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Hero = ({darkMode}) => {
+    AOS.init();
+
+
+
   return (
-    <div className={`min-h-[75vh]   flex flex-row justify-between items-center  py-4 lg:px-[4%] px-2 flex-wrap ${darkMode? "bg-[#030712] text-white" : "bg-white text-[#030712] " } `} >
+    <div  data-aos="fade-in"
+    data-aos-delay="50"
+    data-aos-duration="500"
+    data-aos-easing="ease-in-out"
+     className={`min-h-[75vh]   flex flex-row justify-between items-center  py-4 lg:px-[4%] px-2 flex-wrap ${darkMode? "bg-[#030712] text-white" : "bg-white text-[#030712] " } `} >
 
 
         <div className='max-w-[700px] w-[50vw] min-w-[350px] flex flex-col justify-around gap-5 mx-auto px-2 ' >

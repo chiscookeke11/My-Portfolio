@@ -96,17 +96,17 @@ export const testimonials = [
     {
         name: "Johnbosco Izuchukwu",
         testament: "Working with Chinedu was great. He delivers high-quality code, are always on time, and communicate effectively.",
-        image: "https://res.cloudinary.com/dwedz2laa/image/upload/v1732127972/samples/smile.jpg"
+        image: "https://i.pinimg.com/736x/3f/94/70/3f9470b34a8e3f526dbdb022f9f19cf7.jpg"
     },
     {
         name: "Chimaobi Okoli",
         testament: "Chinedu translates design into flawless, user-friendly websites. He has a great eye for detail and ensure the UI is both beautiful and functional.",
-        image: "https://res.cloudinary.com/dwedz2laa/image/upload/v1732127972/samples/smile.jpg",
+        image: "https://i.pinimg.com/736x/3f/94/70/3f9470b34a8e3f526dbdb022f9f19cf7.jpg",
     },
     {
         name: "James Doe ",
         testament: "I’m thrilled with the website Chinedu built for us. It's responsive, user-friendly, and perfectly reflects our vision. Highly recommended!",
-        image: "https://res.cloudinary.com/dwedz2laa/image/upload/v1732127972/samples/smile.jpg"
+        image: "https://i.pinimg.com/736x/3f/94/70/3f9470b34a8e3f526dbdb022f9f19cf7.jpg"
     }
 ]
 

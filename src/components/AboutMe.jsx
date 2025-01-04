@@ -1,8 +1,16 @@
 import React from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const AboutMe = ({darkMode}) => {
+   AOS.init();
   return (
-    <div className={`py-24 lg:px-20 px-[5%] flex flex-col items-center justify-center gap-5 ${darkMode? "bg-[#111827] text-white ": "bg-[#F9FAFB] text-[#111827] " } `} >
+    <div
+    data-aos="fade-in"
+    data-aos-delay="50"
+    data-aos-duration="500"
+    data-aos-easing="ease-in-out" 
+     className={`py-24 lg:px-20 px-[5%] flex flex-col items-center justify-center gap-5 ${darkMode? "bg-[#111827] text-white ": "bg-[#F9FAFB] text-[#111827] " } `} >
         <h1 className={`px-5 py-1 rounded-xl font-[500] text-sm ${darkMode? "bg-[#374151] " : "text-[#4B5563] bg-[#E5E7EB] " } `} >About me</h1>
 
         <div className='mt-[10%] lg:mt-[6%] flex flex-row items-start justify-between w-full flex-wrap gap-5' >
