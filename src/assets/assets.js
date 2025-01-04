@@ -33,7 +33,7 @@ export const skills = [
 export const projects = [
     {
         name: "Graso",
-        Description : "Graso utilizes the Sui blockchain for secure, fractionalized real estate ownership. I contributed as lead frontend developer, showcasing skills in React, responsive design, team collaboration, and Web3 integration for seamless functionality.",
+        Description : "Graso is a decentralized platform built on the Sui blockchain that enables fractionalized ownership of real estate assets. As the lead frontend developer, I helped create a seamless, user-friendly interface that enhances the platform’s functionality and overall user experience.",
         languages: {
             language1: "React",
             language2: "CSS",
@@ -44,9 +44,9 @@ export const projects = [
     },
     {
         name: "BRIJ",
-        Description : "Graso utilizes the Sui blockchain for secure, fractionalized real estate ownership. I contributed as lead frontend developer, showcasing skills in React, responsive design, team collaboration, and Web3 integration for seamless functionality.",
+        Description : "Brij is an innovative platform designed to bridge the gap between physical and digital experiences, enabling businesses to connect with customers through personalized, immersive interactions.  As part of the team, I contributed to the development of a responsive, user-centered interface that drives usability and enhances the overall user journey.",
         languages: {
-            language1: "React",
+            language1: "NextJs",
             language2: "CSS",
             language3: "Tailwind Css"
         },
@@ -55,9 +55,9 @@ export const projects = [
     },
     {
         name: "ChainTrail",
-        Description : "Graso utilizes the Sui blockchain for secure, fractionalized real estate ownership. I contributed as lead frontend developer, showcasing skills in React, responsive design, team collaboration, and Web3 integration for seamless functionality.",
+        Description : "ChainTrail is a blockchain-based 4Pics 1Word game, built on the Core blockchain.  As the Frontend developer, I created an engaging user interface and integrated Core blockchain to ensure seamless, tamper-proof interactions, enhancing the overall player experience.",
         languages: {
-            language1: "React",
+            language1: "NextJs",
             language2: "CSS",
             language3: "Tailwind Css"
         },
@@ -66,21 +66,21 @@ export const projects = [
     },
     {
         name: "Book Store",
-        Description : "Graso utilizes the Sui blockchain for secure, fractionalized real estate ownership. I contributed as lead frontend developer, showcasing skills in React, responsive design, team collaboration, and Web3 integration for seamless functionality.",
+        Description : "Book Store is a UI-focused project designed to showcase an elegant and user-friendly online bookstore experience. Featuring a clean layout, intuitive navigation, and responsive design. This project emphasizes my ability to create visually appealing interfaces while ensuring a seamless and enjoyable user experience across all devices.",
         languages: {
             language1: "React",
-            language2: "CSS",
-            language3: "Tailwind Css"
+            language2: "Tailwind Css",
+            language3: "React Slider"
         },
         video: "https://res.cloudinary.com/dwedz2laa/video/upload/v1735702633/chrome_1p2rCZ9X7T_xivood.mp4",
         link: "https://book-store-fixed2.vercel.app/",
     },
     {
         name: "Mega Mart",
-        Description : "Graso utilizes the Sui blockchain for secure, fractionalized real estate ownership. I contributed as lead frontend developer, showcasing skills in React, responsive design, team collaboration, and Web3 integration for seamless functionality.",
+        Description : "MegaMart is a UI-focused eCommerce website created as part of my portfolio. Designed with user experience in mind, MegaMart showcases an intuitive and visually appealing layout, featuring a seamless product browsing experience, smooth navigation, and responsive design. The project highlights my ability to craft engaging user interfaces that balance aesthetics and functionality.",
         languages: {
             language1: "React",
-            language2: "CSS",
+            language2: "React Slick",
             language3: "Tailwind Css"
         },
         video: "https://res.cloudinary.com/dwedz2laa/video/upload/v1735702133/chrome_hncA1OA0DP_llasp9.mp4",
