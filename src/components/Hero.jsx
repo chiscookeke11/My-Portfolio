@@ -1,12 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { FaGithub, FaLinkedin, FaMapMarkerAlt } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const Hero = ({darkMode}) => {
-    AOS.init();
+    
 
+    useEffect(()=> {
+        AOS.init({once: true});
+    }, []);
+
+ 
 
 
   return (
@@ -18,7 +23,7 @@ const Hero = ({darkMode}) => {
      className={`min-h-[75vh]   flex flex-row justify-between items-center  py-4 lg:px-[4%] px-2 flex-wrap ${darkMode? "bg-[#030712] text-white" : "bg-white text-[#030712] " } `} >
 
 
-        <div className='max-w-[700px] w-[50vw] min-w-[350px] flex flex-col justify-around gap-5 mx-auto px-2 ' >
+        <div className='max-w-[700px] w-[50vw] min-w-[300px] flex flex-col justify-around gap-5 mx-auto px-2 ' >
 
             <span className='block  ' >
             <h1 className='font-[700] text-3xl lg:text-5xl leading-10 mb-3 whitespace-nowrap ' >Hi, I’m Okeke Chinedu 👋</h1>
