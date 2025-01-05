@@ -1,11 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { testimonials } from "../assets/assets"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 
 const Testimonials = ({ darkMode }) => {
-  AOS.init();
+ useEffect(()=> {
+        AOS.init({once: true});
+    }, [darkMode]);
+
   return (
     <div
       data-aos="fade-in"

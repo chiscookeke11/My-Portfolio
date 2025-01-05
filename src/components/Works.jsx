@@ -1,10 +1,13 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { projects } from '../assets/assets'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const Works = ({darkMode}) => {
-        AOS.init();
+   useEffect(()=> {
+          AOS.init({once: true});
+      }, [darkMode]);
+  
 
     const [slice, setSlice] =  useState(3)
 

@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const AboutMe = ({darkMode}) => {
-   AOS.init();
+ useEffect(()=> {
+        AOS.init({once: true});
+    }, [darkMode]);
+
   return (
     <div
     data-aos="fade-in"

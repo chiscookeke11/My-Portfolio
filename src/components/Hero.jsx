@@ -9,7 +9,7 @@ const Hero = ({darkMode}) => {
 
     useEffect(()=> {
         AOS.init({once: true});
-    }, []);
+    }, [darkMode]);
 
  
 

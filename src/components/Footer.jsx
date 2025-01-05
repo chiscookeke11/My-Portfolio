@@ -1,11 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { FaCopy, FaEnvelope, FaGithub, FaLinkedin, FaPhone } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const Footer = ({ darkMode }) => {
- AOS.init();
+ 
+ useEffect(()=> {
+        AOS.init({once: true});
+    }, [darkMode]);
+
 
   const emailUsername = "chiscookeke11@gmail.com"
   const phoneNumber = "09036531295"

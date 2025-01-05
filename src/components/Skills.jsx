@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { skills } from '../assets/assets'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const Skills = ({darkMode}) => {
+ useEffect(()=> {
+        AOS.init({once: true});
+    }, [darkMode]);
 
   return (
     <div 
