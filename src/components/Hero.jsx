@@ -25,10 +25,10 @@ const Hero = ({darkMode}) => {
 
         <div className='max-w-[700px] w-[50vw] min-w-[300px] flex flex-col justify-around gap-5 mx-auto px-2 ' >
 
-            <span className='block  ' >
-            <h1 className='font-[700] text-3xl lg:text-5xl leading-10 mb-3 whitespace-nowrap ' >Hi, I’m Okeke Chinedu 👋</h1>
-            <p className={` text-base font-normal leading-[24px] ${darkMode? "text-[#D1D5DB]" : "text-[#030712] " } `}   >Frontend developer specializing in React.js and Next.js, with 3 years' experience crafting fast, accessible, and responsive web applications. Committed to delivering exceptional digital experiences. </p>
-            </span>
+            <div className=' w-full ' >
+            <h1 className='font-[700] text-3xl lg:text-5xl leading-10 mb-3 whitespace-nowrap ' >Hi, I’m  Chinedu 👋</h1>
+            <p className={`  text-base font-normal leading-[24px] ${darkMode? "text-[#D1D5DB]" : "text-[#030712] " } `}   >Frontend developer specializing in React.js and Next.js, with 3 years' experience crafting fast, accessible, and responsive web applications. Committed to delivering exceptional digital experiences. </p>
+            </div>
 
 
             <span className={`my-6 flex flex-col  gap-2 w-full text-base  font-normal ${darkMode? "text-[#D1D5DB]" : "text-[#030712]" }  `} >

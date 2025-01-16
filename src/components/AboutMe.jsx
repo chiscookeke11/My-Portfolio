@@ -33,15 +33,17 @@ const AboutMe = ({darkMode}) => {
                 <h1 className='text-3xl font-semibold mb-2 text-center lg:text-left md:text-left  ' >Curious about me? Here you have it:</h1>
                 <p className={`flex flex-col items-start text-justify gap-4  text-base ${darkMode? "text-[#D1D5DB]" : "text-[#4B5563] " } `} >
 
-                    <span>I'm a frontend developer with a unique background in chemistry education, who discovered a passion for coding in 2022. Since then, I've immersed myself in modern web development, specializing in React.js and building dynamic applications with Next.js, TypeScript, and Tailwind CSS.</span>
+                <span>I'm a frontend developer with a strong foundation in web development and a unique background in chemistry education. Transitioning to tech in 2022, I discovered a passion for building fast, accessible, and dynamic web applications using modern tools like React.js, Next.js, TypeScript, and Tailwind CSS.</span>
 
-                    <span>My journey from chemistry to code has given me a distinctive approach to problem-solving. While I excel in crafting responsive and engaging user interfaces, I'm actively expanding into full-stack development and exploring blockchain technology with Cairo on StarkNet.</span>
+<span>My ability to approach problems analytically, shaped by my chemistry background, allows me to design and implement efficient solutions for complex challenges. While I specialize in creating responsive, user-friendly interfaces, I am expanding my expertise into full-stack development and blockchain technology, particularly through Cairo on StarkNet.</span>
 
-                    <span>My portfolio includes diverse projects ranging from real estate platforms and BTCfi gaming to startup fundraising solutions and e-commerce interfaces. I'm particularly proud of contributing in my team to win the SUI on Campus hackathon bounty, and I'm currently building a startup with an ambitious team.</span>
+<span>My portfolio showcases diverse projects, including real estate platforms, BTCfi games, startup fundraising solutions, and e-commerce applications. A notable highlight is contributing to my team's success in winning the SUI on Campus hackathon bounty. Currently, I am collaborating with an ambitious team to build a blockchain-powered startup.</span>
 
-                    <span>When I'm not in full-on developer mode, you can find me hovering around on twitter or on LinkedIn, witnessing the journey of early startups or enjoying some free time. You can follow me on Twitter where I share tech-related bites and build in public, or you can follow me on GitHub.</span>
+<span>Beyond development, I actively engage with the tech community, sharing insights on X (formerly Twitter) and contributing to open-source projects on OnlyDust. I'm particularly passionate about leveraging technology to create meaningful digital experiences and am constantly exploring the latest trends in web and blockchain development.</span>
 
-                  <span>My drive for continuous learning and innovation fuels my dedication to mastering new technologies and delivering impactful solutions. When I'm not coding, you'll find me exploring the latest web technologies or connecting with fellow developers on X.</span>
+<span>Driven by a commitment to continuous learning, I strive to stay at the forefront of emerging technologies and contribute to innovative projects. Whether building scalable web solutions or mentoring fellow developers, I am dedicated to delivering impactful results and fostering growth in the tech ecosystem.</span>
+
+
 
                    <span>Let's build something amazing together! Feel free to reach out via X or email. 😉</span>
                    
