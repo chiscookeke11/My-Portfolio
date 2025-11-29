@@ -27,70 +27,79 @@ export const skills = [
         name: "Typescript",
         image: "https://res.cloudinary.com/dwedz2laa/image/upload/v1735671543/icon-typescript_rgsv3q.svg",
     },
+
+    {
+        name: "Python",
+        image: "/python_logo-removebg-preview.png",
+    },
+
+    {
+        name: "SQL",
+        image: "/SQL-removebg-preview.png",
+    },
+    {
+        name: "Cairo",
+        image: "/cairo-logo-removebg-preview.png",
+    },
+    {
+        name: "Supabase",
+        image: "/supabase-removebg-preview.png",
+    },
+    {
+        name: "Firebase",
+        image: "/firebase-logo-removebg-preview.png",
+    },
 ]
 
 
 export const projects = [
     {
-        name: "Graso",
-        Description : "Graso is a decentralized platform built on the Sui blockchain that enables fractionalized ownership of real estate assets. As the lead frontend developer, I helped create a seamless, user-friendly interface that enhances the platform’s functionality and overall user experience.",
+        name: "Ethereum Enugu Conference Website",
+        Description: "Built and developed the frontend and Web3 integration for the Ethereum Enugu Conference website. Created and validated 4+ attendee and speaker registration forms, developed 7+ responsive pages with reusable components, and enhanced user engagement by 40%. Implemented a generate DP interface handled entirely from the frontend.",
         languages: {
-            language1: "React",
-            language2: "CSS",
-            language3: "Tailwind Css"
+            language1: "Next.js",
+            language2: "Tailwind CSS",
+            language3: "React Hook Form"
         },
-        video: "https://res.cloudinary.com/dwedz2laa/video/upload/v1735702750/chrome_wxFd23u05i_sohlie.mp4",
-        link: "https://grasoo.vercel.app/",
+        video: "https://res.cloudinary.com/dwedz2laa/video/upload/v1764436167/quswpkokbjvvet9gdssb.mp4",
+        link: "https://www.ethenugu.xyz/",
     },
     {
-        name: "BRIJ",
-        Description : "Brij is an innovative platform designed to bridge the gap between physical and digital experiences, enabling businesses to connect with customers through personalized, immersive interactions.  As part of the team, I contributed to the development of a responsive, user-centered interface that drives usability and enhances the overall user journey.",
+        name: "Lagos Rhythm Website",
+        Description: "Developed a high-conversion fullstack website for Lagos tourism promotion. Implemented authentication, booking features, newsletter subscription using Firebase, virtual tour streaming, and Flutterwave payments. Optimized for SEO, responsive design, and improved organic traffic.",
         languages: {
-            language1: "NextJs",
-            language2: "CSS",
-            language3: "Tailwind Css"
+            language1: "Next.js",
+            language2: "Typescript",
+            language3: "Tailwind CSS"
         },
-        video: "https://res.cloudinary.com/dwedz2laa/video/upload/v1735702173/chrome_V2zZojYChu_u5xqj1.mp4",
-        link: "https://brij-org.vercel.app/",
+        video: "https://res.cloudinary.com/dwedz2laa/video/upload/v1764436360/nbduz8ojbqobtvuexruu.mp4",
+        link: "https://www.lagosrhythm.com/",
     },
     {
-        name: "ChainTrail",
-        Description : "ChainTrail is a blockchain-based 4Pics 1Word game, built on the Core blockchain.  As the Frontend developer, I created an engaging user interface and integrated Core blockchain to ensure seamless, tamper-proof interactions, enhancing the overall player experience.",
+        name: "OnlyDust - Open Source Contributions",
+        Description: "Actively contributed to open-source Web3 projects. Made 500+ commits across 20+ repositories, resolved critical issues, merged 300+ pull requests, and improved the codebase by fixing 10+ bugs. Contributed to 50+ blockchain projects, enhancing overall project stability and functionality.",
         languages: {
-            language1: "NextJs",
-            language2: "CSS",
-            language3: "Tailwind Css"
+            language1: "Solidity",
+            language2: "Javascript/Typescript",
+            language3: "Web3"
         },
-        video: "https://res.cloudinary.com/dwedz2laa/video/upload/v1735702148/chrome_YE0J5mhlaj_oprcvu.mp4",
-        link: "https://chaintrail.vercel.app/",
+        video: "https://res.cloudinary.com/dwedz2laa/video/upload/v1764436487/bplvq27gibjckctmtwzc.mp4",
+        link: "https://www.onlydust.com",
     },
-    {
-        name: "Book Store",
-        Description : "Book Store is a UI-focused project designed to showcase an elegant and user-friendly online bookstore experience. Featuring a clean layout, intuitive navigation, and responsive design. This project emphasizes my ability to create visually appealing interfaces while ensuring a seamless and enjoyable user experience across all devices.",
-        languages: {
-            language1: "React",
-            language2: "Tailwind Css",
-            language3: "React Slider"
-        },
-        video: "https://res.cloudinary.com/dwedz2laa/video/upload/v1735702633/chrome_1p2rCZ9X7T_xivood.mp4",
-        link: "https://book-store-fixed2.vercel.app/",
+{
+    name: "Blockchain Career Expo Website",
+    Description: "Worked as the Frontend Developer for the BCE Sofe Group website, building a responsive and user-friendly interface. Implemented interactive features, optimized performance, and ensured seamless user experience across all devices.",
+    languages: {
+        language1: "React",
+        language2: "Tailwind CSS",
+        language3: "TypeScript"
     },
-    {
-        name: "Mega Mart",
-        Description : "MegaMart is a UI-focused eCommerce website created as part of my portfolio. Designed with user experience in mind, MegaMart showcases an intuitive and visually appealing layout, featuring a seamless product browsing experience, smooth navigation, and responsive design. The project highlights my ability to craft engaging user interfaces that balance aesthetics and functionality.",
-        languages: {
-            language1: "React",
-            language2: "React Slick",
-            language3: "Tailwind Css"
-        },
-        video: "https://res.cloudinary.com/dwedz2laa/video/upload/v1735702133/chrome_hncA1OA0DP_llasp9.mp4",
-        link: "https://mega-mart-ashen.vercel.app/",
-    },
-    
-    
-
+    video: "https://res.cloudinary.com/dwedz2laa/video/upload/v1764437048/lusxu8wpr72imiq2ifg9.mp4",
+    link: "https://bce.sofegroup.com"
+}
 
 ]
+
 
 export const testimonials = [
     {
@@ -113,20 +122,67 @@ export const testimonials = [
 export const experience = [
     {
         image: "https://res.cloudinary.com/dwedz2laa/image/upload/v1735706214/graso-logo_yfycfu.png",
-        role: "Lead Frontend Developer",
+        role: "Lead Frontend Developer – Graso",
         tasks: {
-            task1: "Led a team of 3 frontend developers in developing a real estate fractional ownership platform, delivering the project within a tight two-week timeline",
-            task2: "Architected the frontend infrastructure using React.js and implemented responsive designs with Tailwind CSS and custom CSS solutions",
+            task1: "Led a team of 3 frontend developers in developing a real estate fractional ownership platform, delivering the project within a tight two-week timeline.",
+            task2: "Architected the frontend infrastructure using React.js and implemented responsive designs with Tailwind CSS and custom CSS solutions.",
         },
-        duration: "Sept 2024 - present"
+        duration: "Sept 2024 - Present"
     },
     {
-        image: "https://res.cloudinary.com/dwedz2laa/image/upload/v1735706214/brij-logo_tbiwfw.webp",
-        role: " Frontend Developer",
+        image: "/eth-enugu_logo.svg",
+        role: "Frontend & Web3 Integration – Ethereum Enugu Conference",
         tasks: {
-            task1: "Ensured code quality and consistency across the team while meeting project deadlines and technical requirements",
-            task2: "Oversaw the implementation of user-centric features that facilitated startup fundraising through a decentralized platform, making capital raising more accessible and transparent.",
+            task1: "Built and validated 4+ attendee and speaker registration forms with backend API testing via Postman.",
+            task2: "Developed the website interface with 7+ responsive pages and reusable components, enhancing user engagement by 40%.",
+            task3: "Implemented the generate DP interface and handled the functionality entirely from the frontend."
         },
-        duration: "December 2024 - present"
+        duration: "March 2025 - August 2025"
+    },
+    {
+        image: "/lagos-rhythm-logo.webp",
+        role: "Fullstack Developer – Lagos Rhythm",
+        tasks: {
+            task1: "Built a high-conversion website to promote Lagos tourism with authentication, booking, and newsletter subscription features using Firebase.",
+            task2: "Implemented virtual tour streaming, integrated Flutterwave for payments, and optimized the website for SEO, improving visibility and organic traffic."
+        },
+        duration: "Feb 2025 - Present"
+    },
+    {
+        image: "/OD-logo.png",
+        role: "Open-Source Contributor – OnlyDust",
+        tasks: {
+            task1: "Contributed 500+ commits across 20+ repositories, resolving critical issues and improving code quality.",
+            task2: "Merged 300+ pull requests and actively contributed to 50+ blockchain projects, enhancing project stability and functionality."
+        },
+        duration: "Dec 2024 - Sept 2025"
+    },
+    {
+        image: "/thegreyitlogo.webp",
+        role: "Software Development Intern – TheGreyIT",
+        tasks: {
+            task1: "Developed and maintained responsive web applications using React.js, TypeScript, and Tailwind CSS.",
+            task2: "Designed user-friendly interfaces focused on usability and responsiveness, participated in code reviews, debugging, and performance optimization."
+        },
+        duration: "Aug 2025 - Present"
+    },
+    // New teaching experiences
+    {
+        image: "/Roarlogo.webp", // you can replace with actual logo if available
+        role: "Coding Instructor – Roar Hub UNN",
+        tasks: {
+            task1: "Taught over 50 students in a summer bootcamp the fundamentals of web development including HTML, CSS, and JavaScript.",
+            task2: "Designed beginner-friendly lessons and hands-on exercises to help students build basic web projects."
+        },
+        duration: "Aug 2025 - Sept 2025"
+    },
+    {
+        image: "/SOFE-LOGO-OFFICIAL-PNG.webp", // replace with actual logo
+        role: "Frontend Coding Instructor – Sofe Group",
+        tasks: {
+            task1: "Provided hands-on training to students on frontend development using HTML, CSS, and JavaScript.",
+            task2: "Guided students through building real-world web projects and introduced best practices in coding."
+        },
+        duration: "2025"
     }
-]
+];

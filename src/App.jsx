@@ -10,7 +10,7 @@ import Navbar from './components/Navbar'
 
 const App = ({darkMode, toggleMode}) => {
   return (
-    <div className= {` w-full h-auto transition duration-300 ease-in-out  ${darkMode? "bg-[#030712]" : "bg-white" } `} > 
+    <div className= {` w-full h-auto transition duration-300 ease-in-out  ${darkMode? "bg-[#030712]" : "bg-white" } `} >
       <Navbar darkMode={darkMode} toggleMode={toggleMode}  />
       <Hero darkMode={darkMode}/>
       <AboutMe darkMode={darkMode}/>

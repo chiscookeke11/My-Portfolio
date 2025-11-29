@@ -3,9 +3,10 @@ import { FaCopy, FaEnvelope, FaGithub, FaLinkedin, FaPhone } from 'react-icons/f
 import { FaXTwitter } from 'react-icons/fa6'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { toast } from 'react-toastify';
 
 const Footer = ({ darkMode }) => {
- 
+
  useEffect(()=> {
         AOS.init({once: true});
     }, [darkMode]);
@@ -18,22 +19,22 @@ const Footer = ({ darkMode }) => {
     navigator.clipboard
       .writeText(emailUsername)
       .then(() => {
-        alert("Email copied to clipboard!");
+        toast.success("Email copied to clipboard!");
       })
       .catch((err) => {
         console.error("Failed to copy email: ", err);
-        alert("Failed to copy email. Please try again.");
+        toast.error("Failed to copy email. Please try again.");
       });
   };
   const handlePhoneCopy = () => {
     navigator.clipboard
       .writeText(phoneNumber)
       .then(() => {
-        alert("Phone Number copied to clipboard")
+        toast.success("Phone Number copied to clipboard")
       })
       .catch((err) => {
         console.error("failed to copy phone number: ", err);
-        alert("failed to copy phone number. please try again")
+        toast.error("failed to copy phone number. please try again")
       })
   }
 
@@ -70,9 +71,9 @@ const Footer = ({ darkMode }) => {
 
         <p className='text-sm  mt-[6%]  max-w-[450px] ' >You may also find me on these platforms! </p>
         <span className=' flex flex-row items-center justify-center gap-3' >
-          <a href="https://github.com/chiscookeke11"><FaGithub /></a>
-          <a href="https://x.com/chisco_JS"><FaXTwitter /></a>
-          <a href="https://www.linkedin.com/in/chinedu-okeke-4080b8292/"><FaLinkedin /></a>
+          <a href="https://github.com/chiscookeke11" target='_blank'><FaGithub /></a>
+          <a href="https://x.com/chisco_JS" target='_blank'><FaXTwitter /></a>
+          <a href="https://www.linkedin.com/in/chinedu-emmanuel-okeke-4080b8292/" target='_blank'><FaLinkedin /></a>
         </span>
       </div>
 

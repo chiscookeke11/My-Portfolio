@@ -9,7 +9,7 @@ const Skills = ({darkMode}) => {
     }, [darkMode]);
 
   return (
-    <div 
+    <div
     data-aos="fade-in"
     data-aos-delay="50"
     data-aos-duration="500"
@@ -20,7 +20,7 @@ const Skills = ({darkMode}) => {
       <h1 className={` px-5 py-1 rounded-xl font-[500] text-sm  w-fit ${darkMode? "bg-[#374151] text-[#D1D5DB] " : "bg-[#E5E7EB] text-[#4B5563] " } `} >Skills</h1>
       <p className='text-lg  ' >The skills, tools and technologies I am really good at:</p>
       </div>
-      
+
 
 
 
@@ -37,7 +37,7 @@ const Skills = ({darkMode}) => {
         }
 
       </div>
-        
+
 
     </div>
   )
