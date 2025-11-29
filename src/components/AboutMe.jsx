@@ -41,57 +41,50 @@ const AboutMe = ({ darkMode }) => {
           />
         </div>
 
-        <div className="max-w-[580px] min-w-sm mx-auto " id="about">
-          <h1 className="text-3xl font-semibold mb-2 text-center lg:text-left md:text-left  ">
+        <div className="max-w-[580px] min-w-sm mx-auto" id="about">
+          <h1 className="text-3xl font-semibold mb-2 text-center lg:text-left md:text-left">
             Curious about me? Here you have it:
           </h1>
           <p
-            className={`flex flex-col items-start  gap-4  text-base md:text-lg ${
-              darkMode ? "text-[#D1D5DB]" : "text-[#4B5563] "
-            } `}
+            className={`flex flex-col items-start gap-4 text-base md:text-lg ${
+              darkMode ? "text-[#D1D5DB]" : "text-[#4B5563]"
+            }`}
           >
             <span>
-              I’m a frontend developer who started in chemistry but found my
-              true passion in building web applications. Since transitioning to
-              tech in 2022, I’ve been creating fast, responsive, and
-              user-friendly interfaces with React.js, Next.js, TypeScript, and
-              Tailwind CSS.
+              I’m a frontend developer with a strong foundation in chemistry,
+              now fully immersed in building web applications. Since 2022, I’ve
+              delivered fast, responsive interfaces using React.js, Next.js,
+              TypeScript, and Tailwind CSS.
             </span>
 
             <span>
-              My analytical background gives me a unique approach to
-              problem-solving, helping me design efficient and thoughtful
-              solutions. Along the way, I’ve explored full-stack development and
-              blockchain, learning Cairo on StarkNet, building on Sui, and
-              integrating smart contracts with ThirdWeb and Alchemy.
+              My analytical mindset drives me to solve problems efficiently,
+              whether architecting complex frontends or exploring blockchain
+              development on StarkNet and Sui, integrating smart contracts with
+              ThirdWeb and Alchemy.
             </span>
 
             <span>
-              I’ve grown through bootcamps, hackathons, and hands-on projects,
-              and I love collaborating with teams to bring ambitious ideas to
-              life. Beyond coding, I enjoy sharing insights in the tech
-              community, contributing to open-source projects, and staying
-              curious about emerging trends.
+              I actively collaborate in bootcamps, hackathons, and team
+              projects, turning ambitious ideas into working products while
+              continuously learning and refining my skills.
             </span>
 
             <span>
-              Beyond development, I actively engage with the tech community,
-              sharing insights on X (formerly Twitter) and contributing to
-              open-source projects. I'm particularly passionate
-              about leveraging technology to create meaningful digital
-              experiences and am constantly exploring the latest trends in web
-              and blockchain development.
+              I contribute to open-source projects, share insights with the tech
+              community, and stay on top of emerging trends in web3, blockchain,
+              and frontend development.
             </span>
 
             <span>
-              I’m driven by learning, building, and making an impact. Whether
-              it’s a sleek web app or a cutting-edge blockchain solution, I’m
-              excited to create experiences that matter.
+              Passionate about building meaningful digital experiences, I focus
+              on creating solutions that make an impact; be it a sleek web app or
+              an innovative blockchain project.
             </span>
 
             <span>
-            Let’s build something
-              amazing together! Reach out via X or email. 😉
+              Let’s build something amazing together! Reach out via X or email.
+              😉
             </span>
           </p>
         </div>

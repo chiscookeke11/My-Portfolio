@@ -55,7 +55,7 @@ export const skills = [
 export const projects = [
     {
         name: "Ethereum Enugu Conference Website",
-        Description: "Built and developed the frontend and Web3 integration for the Ethereum Enugu Conference website. Created and validated 4+ attendee and speaker registration forms, developed 7+ responsive pages with reusable components, and enhanced user engagement by 40%. Implemented a generate DP interface handled entirely from the frontend.",
+        Description: "Built the frontend and Web3 integration, created 4+ registration forms, 7+ responsive pages with reusable components, and improved engagement by 40%.",
         languages: {
             language1: "Next.js",
             language2: "Tailwind CSS",
@@ -66,7 +66,7 @@ export const projects = [
     },
     {
         name: "Lagos Rhythm Website",
-        Description: "Developed a high-conversion fullstack website for Lagos tourism promotion. Implemented authentication, booking features, newsletter subscription using Firebase, virtual tour streaming, and Flutterwave payments. Optimized for SEO, responsive design, and improved organic traffic.",
+        Description: "Developed a fullstack tourism site with authentication, booking, virtual tours, newsletter, and payments. Optimized for SEO and responsiveness.",
         languages: {
             language1: "Next.js",
             language2: "Typescript",
@@ -77,7 +77,7 @@ export const projects = [
     },
     {
         name: "OnlyDust - Open Source Contributions",
-        Description: "Actively contributed to open-source Web3 projects. Made 500+ commits across 20+ repositories, resolved critical issues, merged 300+ pull requests, and improved the codebase by fixing 10+ bugs. Contributed to 50+ blockchain projects, enhancing overall project stability and functionality.",
+        Description: "Contributed to 50+ Web3 projects, with 500+ commits, 300+ PR merges, and multiple bug fixes to improve project stability.",
         languages: {
             language1: "Solidity",
             language2: "Javascript/Typescript",
@@ -86,19 +86,19 @@ export const projects = [
         video: "https://res.cloudinary.com/dwedz2laa/video/upload/v1764436487/bplvq27gibjckctmtwzc.mp4",
         link: "https://www.onlydust.com",
     },
-{
-    name: "Blockchain Career Expo Website",
-    Description: "Worked as the Frontend Developer for the BCE Sofe Group website, building a responsive and user-friendly interface. Implemented interactive features, optimized performance, and ensured seamless user experience across all devices.",
-    languages: {
-        language1: "React",
-        language2: "Tailwind CSS",
-        language3: "TypeScript"
-    },
-    video: "https://res.cloudinary.com/dwedz2laa/video/upload/v1764437048/lusxu8wpr72imiq2ifg9.mp4",
-    link: "https://bce.sofegroup.com"
-}
-
+    {
+        name: "Blockchain Career Expo Website",
+        Description: "Frontend developer for a responsive, user-friendly site with interactive features and optimized performance across devices.",
+        languages: {
+            language1: "React",
+            language2: "Tailwind CSS",
+            language3: "TypeScript"
+        },
+        video: "https://res.cloudinary.com/dwedz2laa/video/upload/v1764437048/lusxu8wpr72imiq2ifg9.mp4",
+        link: "https://bce.sofegroup.com"
+    }
 ]
+
 
 
 export const testimonials = [
