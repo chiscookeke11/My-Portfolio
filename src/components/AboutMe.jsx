@@ -51,40 +51,35 @@ const AboutMe = ({ darkMode }) => {
             }`}
           >
             <span>
-              I’m a frontend developer with a strong foundation in chemistry,
-              now fully immersed in building web applications. Since 2022, I’ve
-              delivered fast, responsive interfaces using React.js, Next.js,
-              TypeScript, and Tailwind CSS.
+              I’m a Software Engineer with a background in chemistry, focused on
+              building scalable web and Web3 applications using modern
+              technologies.
             </span>
 
             <span>
-              My analytical mindset drives me to solve problems efficiently,
-              whether architecting complex frontends or exploring blockchain
-              development on StarkNet and Sui, integrating smart contracts with
-              ThirdWeb and Alchemy.
+              I work with React.js, Next.js, TypeScript, and Tailwind CSS,
+              alongside API and smart contract integrations across blockchain
+              networks.
             </span>
 
             <span>
-              I actively collaborate in bootcamps, hackathons, and team
-              projects, turning ambitious ideas into working products while
-              continuously learning and refining my skills.
+              I enjoy solving complex problems, designing reusable systems, and
+              delivering performant, user-focused software.
             </span>
 
             <span>
-              I contribute to open-source projects, share insights with the tech
-              community, and stay on top of emerging trends in web3, blockchain,
-              and frontend development.
+              Through hackathons, bootcamps, team projects and open-source contributions, I collaborate
+              closely with others to turn ideas into production-ready solutions.
             </span>
 
             <span>
-              Passionate about building meaningful digital experiences, I focus
-              on creating solutions that make an impact; be it a sleek web app or
-              an innovative blockchain project.
+              Passionate about impactful technology, I continuously learn,
+              contribute, and build software that solves real-world problems.
             </span>
 
             <span>
-              Let’s build something amazing together! Reach out via X or email.
-              😉
+              Let’s build something meaningful together. Reach out via X or
+              email 😉
             </span>
           </p>
         </div>

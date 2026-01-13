@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import  { useEffect } from 'react'
 import { experience } from '../assets/assets'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -25,7 +25,7 @@ const Experience = ({darkMode}) => {
 
     <div className='jobs w-full flex flex-col gap-5 items-center' >
 
- 
+
        {experience.map((item, index)=> (
          <div key={index} className={`w-full max-w-[896px] flex flex-col md:flex-row items-start justify-evenly  gap-5 px-4 py-7 overflow-hidden rounded-lg ${darkMode? "bg-[#1F2937]" : "bg-[#FFFFFF] shadow-xl  " } `} >
          <div className=' basis-1/3' ><img src={item.image} alt="" className='w-[100px] ' /> </div>
@@ -37,7 +37,7 @@ const Experience = ({darkMode}) => {
            </ul>
 
 
-          
+
 
 
          </div>
@@ -47,10 +47,10 @@ const Experience = ({darkMode}) => {
          <div className={`basis-1/3 flex md:justify-end  font-normal text-base ${darkMode? "text-[#D1D5DB]" : "text-[#374151] " } `} >{item.duration} </div>
      </div>
        ))}
-        
+
     </div>
 
-    
+
 
 
 
@@ -61,7 +61,7 @@ const Experience = ({darkMode}) => {
 </div>
 
 
-    
+
   )
 }
 

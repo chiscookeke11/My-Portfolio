@@ -27,8 +27,7 @@ const Hero = ({darkMode}) => {
 
             <div className=' w-full ' >
             <h1 className='font-[700] text-3xl lg:text-5xl leading-10 mb-3 whitespace-nowrap ' >Hi, I'm  Chinedu 👋</h1>
-            <p className={`  text-base font-normal leading-[24px] ${darkMode? "text-[#D1D5DB]" : "text-[#030712] " } `}   >Frontend Developer building fast, responsive web apps and multi-chain dApps with React.js, Next.js, TypeScript, and Tailwind CSS.
-                Passionate about creating intuitive digital experiences and bringing ideas to life.</p>
+            <p className={`  text-base font-normal leading-[24px] ${darkMode? "text-[#D1D5DB]" : "text-[#030712] " } `}   >Software Engineer building scalable web2 and Web3 applications, with experience in modern frontend systems, smart contract integration, API testing, and multi-chain dApp development.</p>
             </div>
 
 

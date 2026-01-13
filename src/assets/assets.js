@@ -121,13 +121,42 @@ export const testimonials = [
 
 export const experience = [
     {
-        image: "https://res.cloudinary.com/dwedz2laa/image/upload/v1735706214/graso-logo_yfycfu.png",
-        role: "Lead Frontend Developer – Graso",
+        image: "/thegreyitlogo.webp",
+        role: "Software Development Intern – TheGreyIT",
         tasks: {
-            task1: "Led a team of 3 frontend developers in developing a real estate fractional ownership platform, delivering the project within a tight two-week timeline.",
-            task2: "Architected the frontend infrastructure using React.js and implemented responsive designs with Tailwind CSS and custom CSS solutions.",
+            task1: "Developed and maintained responsive web applications using React.js, TypeScript, and Tailwind CSS.",
+            task2: "Designed user-friendly interfaces focused on usability and responsiveness, participated in code reviews, debugging, and performance optimization."
         },
-        duration: "Sept 2024 - Present"
+        duration: "Aug 2025 - Present"
+    },
+    {
+        image: "/kambria_logo.jpg",
+        role: "DAO Ambassador & Plan Executor – Kambria",
+        tasks: {
+            task1: "Executed Connect DAO strategic initiatives under Kambria’s DAO Experimentation Program (DEP), driving collaboration and community-led innovation.",
+            task2: "Facilitated onboarding and coordination of DAO members across regions, strengthening participation within the decentralized ecosystem.",
+            task3: "Bridged partnerships between DAO contributors, local innovators, and other DAOs while supporting proposal development, storytelling, and project documentation."
+        },
+        duration: "Sept 2025 - Present"
+    },
+    {
+        image: "/lagos-rhythm-logo.webp",
+        role: "Fullstack Developer – Lagos Rhythm",
+        tasks: {
+            task1: "Built a high-conversion website to promote Lagos tourism with authentication, booking, and newsletter subscription features using Firebase.",
+            task2: "Implemented virtual tour streaming, integrated Flutterwave for payments, and optimized the website for SEO, improving visibility and organic traffic."
+        },
+        duration: "Feb 2025 - Present"
+    },
+    {
+        image: "/gida-logo.jpg",
+        role: "Backend Development Instructor (Volunteer) – Ginakev Digital Academy (GIDA)",
+        tasks: {
+            task1: "Led Week 7 of the GIDA Skillup Summer Bootcamp (Backend Track), teaching databases and authentication fundamentals using Node.js and MongoDB.",
+            task2: "Guided participants through MongoDB integration with Mongoose, CRUD operations, secure password hashing with bcrypt, and JWT-based authentication.",
+            task3: "Mentored beginners in building complete login and signup flows, helping them implement functional APIs and gain confidence through hands-on practice."
+        },
+        duration: "October 2025 - December 2025"
     },
     {
         image: "/eth-enugu_logo.svg",
@@ -140,15 +169,6 @@ export const experience = [
         duration: "March 2025 - August 2025"
     },
     {
-        image: "/lagos-rhythm-logo.webp",
-        role: "Fullstack Developer – Lagos Rhythm",
-        tasks: {
-            task1: "Built a high-conversion website to promote Lagos tourism with authentication, booking, and newsletter subscription features using Firebase.",
-            task2: "Implemented virtual tour streaming, integrated Flutterwave for payments, and optimized the website for SEO, improving visibility and organic traffic."
-        },
-        duration: "Feb 2025 - Present"
-    },
-    {
         image: "/OD-logo.png",
         role: "Open-Source Contributor – OnlyDust",
         tasks: {
@@ -157,15 +177,7 @@ export const experience = [
         },
         duration: "Dec 2024 - Sept 2025"
     },
-    {
-        image: "/thegreyitlogo.webp",
-        role: "Software Development Intern – TheGreyIT",
-        tasks: {
-            task1: "Developed and maintained responsive web applications using React.js, TypeScript, and Tailwind CSS.",
-            task2: "Designed user-friendly interfaces focused on usability and responsiveness, participated in code reviews, debugging, and performance optimization."
-        },
-        duration: "Aug 2025 - Present"
-    },
+
     // New teaching experiences
     {
         image: "/Roarlogo.webp", // you can replace with actual logo if available
@@ -183,6 +195,15 @@ export const experience = [
             task1: "Provided hands-on training to students on frontend development using HTML, CSS, and JavaScript.",
             task2: "Guided students through building real-world web projects and introduced best practices in coding."
         },
-        duration: "2025"
+        duration: "August 2025"
+    },
+    {
+        image: "https://res.cloudinary.com/dwedz2laa/image/upload/v1735706214/graso-logo_yfycfu.png",
+        role: "Lead Frontend Developer – Graso",
+        tasks: {
+            task1: "Led a team of 3 frontend developers in developing a real estate fractional ownership platform, delivering the project within a tight two-week timeline.",
+            task2: "Architected the frontend infrastructure using React.js and implemented responsive designs with Tailwind CSS and custom CSS solutions.",
+        },
+        duration: "Sept 2024 - Present"
     }
 ];
