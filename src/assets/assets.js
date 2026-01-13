@@ -160,7 +160,7 @@ export const experience = [
     },
     {
         image: "/eth-enugu_logo.svg",
-        role: "Frontend & Web3 Integration – Ethereum Enugu Conference",
+        role: "Frontend Developer (Volunteer) – Ethereum Enugu Conference",
         tasks: {
             task1: "Built and validated 4+ attendee and speaker registration forms with backend API testing via Postman.",
             task2: "Developed the website interface with 7+ responsive pages and reusable components, enhancing user engagement by 40%.",

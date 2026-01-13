@@ -23,11 +23,11 @@ const Experience = ({darkMode}) => {
     </div>
 
 
-    <div className='jobs w-full flex flex-col gap-5 items-center' >
+    <div className='jobs w-full grid grid-cols-1 lg:grid-cols-2 gap-5 items-center' >
 
 
        {experience.map((item, index)=> (
-         <div key={index} className={`w-full max-w-[896px] flex flex-col md:flex-row items-start justify-evenly  gap-5 px-4 py-7 overflow-hidden rounded-lg ${darkMode? "bg-[#1F2937]" : "bg-[#FFFFFF] shadow-xl  " } `} >
+         <div key={index} className={`w-full h-full max-w-[896px] flex flex-col md:flex-row items-start justify-evenly  gap-5 px-4 py-7 overflow-hidden rounded-lg ${darkMode? "bg-[#1F2937]" : "bg-[#FFFFFF] shadow-xl  " } `} >
          <div className=' basis-1/3' ><img src={item.image} alt="" className='w-[100px] ' /> </div>
          <div className=' basis-1/3 '> <h1 className={`text-lg font-bold mb-2 ${darkMode? "null " : "text-[#111827] "} `} >{item.role} </h1>
 
