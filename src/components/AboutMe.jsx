@@ -33,7 +33,7 @@ const AboutMe = ({ darkMode }) => {
           }`}
         >
           <img
-            src="/_BIG6925.jpg"
+            src="/image.png"
             alt=""
             className={`w-full h-full absolute top-[-7%] right-[-10%]  object-cover border-8   ${
               darkMode ? "border-[#111827]" : "border-[#E5E7EB]"
@@ -51,32 +51,31 @@ const AboutMe = ({ darkMode }) => {
             }`}
           >
             <span>
-              I’m a Software Engineer with a background in chemistry, focused on
-              building scalable web and Web3 applications using modern
-              technologies.
+              I’m a Software Engineer and AI/ML Engineer passionate about
+              building developer-friendly tools, intelligent applications, and
+              scalable software that solve real-world problems.
             </span>
-
             <span>
-              I work with React.js, Next.js, TypeScript, and Tailwind CSS,
-              alongside API and smart contract integrations across blockchain
-              networks.
+              I work across modern web technologies including React.js, Next.js,
+              TypeScript, Python, and cloud-based backend systems, with
+              experience in AI integration, API design, and full-stack
+              application development.
             </span>
-
             <span>
-              I enjoy solving complex problems, designing reusable systems, and
-              delivering performant, user-focused software.
+              I enjoy designing reusable systems, translating complex ideas into
+              intuitive products, and building performant software that delivers
+              real value to users.
             </span>
-
             <span>
-              Through hackathons, bootcamps, team projects and open-source contributions, I collaborate
-              closely with others to turn ideas into production-ready solutions.
+              Through open-source contributions, hackathons, team
+              collaborations, and community-driven projects, I work with others
+              to transform ideas into production-ready solutions.
             </span>
-
             <span>
-              Passionate about impactful technology, I continuously learn,
-              contribute, and build software that solves real-world problems.
+              I'm constantly exploring advancements in AI, software engineering,
+              and developer tooling, with a focus on creating technology that
+              empowers businesses, developers, and communities.
             </span>
-
             <span>
               Let’s build something meaningful together. Reach out via X or
               email 😉

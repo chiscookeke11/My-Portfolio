@@ -197,13 +197,4 @@ export const experience = [
         },
         duration: "August 2025"
     },
-    {
-        image: "https://res.cloudinary.com/dwedz2laa/image/upload/v1735706214/graso-logo_yfycfu.png",
-        role: "Lead Frontend Developer – Graso",
-        tasks: {
-            task1: "Led a team of 3 frontend developers in developing a real estate fractional ownership platform, delivering the project within a tight two-week timeline.",
-            task2: "Architected the frontend infrastructure using React.js and implemented responsive designs with Tailwind CSS and custom CSS solutions.",
-        },
-        duration: "Sept 2024 - Present"
-    }
 ];
