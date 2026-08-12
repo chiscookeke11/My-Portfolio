@@ -62,7 +62,7 @@ export const projects = [
             language3: "React Hook Form"
         },
         video: "https://res.cloudinary.com/dwedz2laa/video/upload/v1764436167/quswpkokbjvvet9gdssb.mp4",
-        link: "https://www.ethenugu.xyz/",
+        link: "https://www.eth-enugu.xyz/",
     },
     {
         name: "Lagos Rhythm Website",
@@ -96,7 +96,60 @@ export const projects = [
         },
         video: "https://res.cloudinary.com/dwedz2laa/video/upload/v1764437048/lusxu8wpr72imiq2ifg9.mp4",
         link: "https://bce.sofegroup.com"
-    }
+    },
+
+    {
+        name: "Uniogate",
+        Description:
+            "Developed Uniogate, a responsive Web3 platform with a modern user interface, wallet integration, and seamless user flows. Built reusable components, implemented responsive designs, and optimized the platform for usability and performance.",
+        languages: {
+            language1: "Next.js",
+            language2: "Tailwind CSS",
+            language3: "Supabase",
+        },
+        video: "https://res.cloudinary.com/dwedz2laa/video/upload/v1786572544/mwunrkpsgbm9amv0cdf9.mp4",
+        link: "https://www.uniogate.com/",
+    },
+
+    {
+        name: "TheGreyIT",
+        Description:
+            "Developed a responsive company website with modern UI, reusable components, and optimized layouts across devices. Translated UI/UX designs into functional interfaces while improving usability, performance, and overall user experience.",
+        languages: {
+            language1: "Next.js",
+            language2: "Tailwind CSS",
+            language3: "Prisma",
+        },
+        video: "https://res.cloudinary.com/dwedz2laa/video/upload/v1786572552/edftytsgth1kkaosoab8.mp4",
+        link: "https://www.thegreyit.org/",
+    },
+
+    {
+        name: "SmartBiz AI",
+        Description:
+            "Developed an AI-powered business platform with a responsive interface, reusable components, and seamless user interactions. Integrated Supabase for backend functionality and built optimized layouts for a fast, accessible, and user-friendly experience.",
+        languages: {
+            language1: "Next.js",
+            language2: "Tailwind CSS",
+            language3: "Supabase",
+        },
+        video: "https://res.cloudinary.com/dwedz2laa/video/upload/v1786572541/nv7ietc6biqwm0aiowdj.mp4",
+        link: "https://smart-biz-ai-webapp.vercel.app/",
+    },
+
+    {
+        name: "Decarbonize",
+        Description:
+            "Developed a responsive sustainability platform designed to help users understand and engage with decarbonization solutions. Built reusable components, optimized the interface for different devices, and implemented a clean, accessible user experience.",
+        languages: {
+            language1: "Next.js",
+            language2: "Tailwind CSS",
+            language3: "Supabase",
+        },
+        video: "https://res.cloudinary.com/dwedz2laa/video/upload/v1786572528/lqtrhjl4puz8luup7pis.mp4",
+        link: "https://decarbonize-chi.vercel.app/",
+    },
+
 ]
 
 
