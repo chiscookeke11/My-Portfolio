@@ -86,17 +86,6 @@ export const projects = [
         video: "https://res.cloudinary.com/dwedz2laa/video/upload/v1764436487/bplvq27gibjckctmtwzc.mp4",
         link: "https://www.onlydust.com",
     },
-    {
-        name: "Blockchain Career Expo Website",
-        Description: "Frontend developer for a responsive, user-friendly site with interactive features and optimized performance across devices.",
-        languages: {
-            language1: "React",
-            language2: "Tailwind CSS",
-            language3: "TypeScript"
-        },
-        video: "https://res.cloudinary.com/dwedz2laa/video/upload/v1764437048/lusxu8wpr72imiq2ifg9.mp4",
-        link: "https://bce.sofegroup.com"
-    },
 
     {
         name: "Uniogate",
