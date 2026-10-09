@@ -4,8 +4,8 @@
 
 export const navbar_data = [
     {
-        label: "Work",
-        path: "/"
+        label: "Projects",
+        path: "#projects"
     },
     {
         label: "About",

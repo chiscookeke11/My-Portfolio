@@ -12,9 +12,16 @@ export interface Projects {
     gallery: string[],
     scope: string,
     impact: string,
-    technology: string[]
+    technology: string[],
+    url: string
 }
 
 
 
 
+export interface Experience {
+    title: string
+    logo: string,
+    duration: string,
+    company_name: string,
+}

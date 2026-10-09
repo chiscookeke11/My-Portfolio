@@ -1,7 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import WebsiteLayout from "./layouts/WebsiteLayout";
 import Home from "./pages/website/Home";
-import Display from "./display";
+import Projects from "./pages/website/Projects";
+import Project from "./pages/website/Project";
 
 const App = () => {
   return (
@@ -10,7 +11,8 @@ const App = () => {
         {/* Landing page  */}
         <Route element={<WebsiteLayout />}>
           <Route path="/" element={<Home />} />
-          <Route path="/display" element={<Display />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/projects/:id" element={<Project />} />
         </Route>
       </Routes>
     </BrowserRouter>

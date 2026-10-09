@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "tailwindcss";
 
 @font-face {
   font-family: "OpenSans";
@@ -9,8 +10,20 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "TimesNewRoman";
+  src: url("./assets/fonts/times.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
 @theme {
   --font-open-sans: "OpenSans", sans-serif;
+  --font-times: "TimesNewRoman", serif;
+}
+
+* {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -33,4 +46,19 @@ body {
 .float-card {
   animation: float 5s ease-in-out infinite;
   will-change: transform;
+}
+
+.font-times {
+  font-family: "TimesNewRoman", serif;
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
 }
