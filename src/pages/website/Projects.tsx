@@ -19,7 +19,7 @@ export default function Projects() {
 
                 <div className="w-full flex overflow-x-auto scrollbar-hide gap-1.5 py-4  " >
                     {
-                        project_data.slice(6, 12).map((project, i) => (
+                        project_data.slice(6).map((project, i) => (
                             <ProjectCard project={project} />
                         ))
                     }

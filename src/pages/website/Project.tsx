@@ -26,8 +26,8 @@ export default function Project() {
 
             {/* Header */}
             <header className="w-full max-w-5xl flex flex-col items-start gap-5 " >
-                <h1 className="font-bold text-5xl " > {project.title}</h1>
-                <p className="text-white opacity-[60%] text-[17px] " > {project.briefDescription} </p>
+                <h1 className="font-bold text-3xl md:text-5xl " > {project.title}</h1>
+                <p className="text-white opacity-[60%] text-base md:text-[17px] " > {project.briefDescription} </p>
                 <a target="_blank" href={project.url} className="text-blue-600 text-sm font-medium " >Preview</a>
 
             </header>
@@ -35,19 +35,29 @@ export default function Project() {
 
             {/* Video  */}
             <div className="w-full max-w-[1400px] h-auto my-10 bg-[#0c0c0c] " >
-                <video
-                    src={project.image}
-                    autoPlay
-                    loop
-                    muted
-                    className="w-full h-full    object-cover object-center rounded-[10px] "
-                ></video>
+                {project.image.includes("mp4") ? (
+                    <video
+                        src={project.image}
+                        autoPlay
+                        loop
+                        muted
+                        className="w-full h-full    object-cover object-center rounded-[10px] "
+                    ></video>
+                ) : (
+                    <img
+                        src={project.image}
+                        alt="image"
+                        className="w-full h-full    object-cover object-center rounded-[10px] "
+                    />
+                )}
             </div>
 
 
 
+
+
             {/* Project details */}
-            <div className="w-full max-w-5xl  flex items-start justify-between gap-20 " >
+            <div className="w-full max-w-5xl  flex flex-col-reverse md:flex-row items-start justify-between gap-16 md:gap-20 " >
 
 
                 <div className=" basis-[30%] flex flex-col items-start gap-7 " >
@@ -89,7 +99,7 @@ export default function Project() {
 
 
             {/* Impact  */}
-            <div className="w-full max-w-5xl  flex items-start justify-between gap-20 border-t border-b py-7 border-white/25 " >
+            <div className="w-full max-w-5xl  flex items-start flex-col md:flex-row justify-between gap-16 md:gap-20 border-t border-b py-7 border-white/25 " >
 
 
                 <div className=" basis-[30%] flex flex-col items-start gap-7 " >

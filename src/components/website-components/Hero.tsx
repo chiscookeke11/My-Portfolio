@@ -1,6 +1,13 @@
+import {
+    FaEnvelope,
+    FaGithub,
+    FaLinkedin,
+} from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+
 export default function Hero() {
     return (
-        <section className="h-screen relative w-full flex items-center justify-center py-10 overflow-hidden">
+        <section className="h-screen relative w-full flex items-center flex-col gap-4 justify-center py-10 overflow-hidden">
 
             <h1 className="max-w-[350px] md:max-w-[650px] text-center font-semibold text-base md:text-lg tracking-wide">
 
@@ -13,10 +20,32 @@ export default function Hero() {
                 Based in Nigeria. Building globally.
             </h1>
 
+            <div className="flex flex-row items-center gap-4 text-xl ">
+                <a href="https://github.com/chiscookeke11" target="_blank">
+                    <FaGithub />{" "}
+                </a>
+                <a href="https://x.com/chisco_JS" target="_blank">
+                    <FaXTwitter />{" "}
+                </a>
+                <a
+                    href="https://www.linkedin.com/in/chinedu-emmanuel-okeke-4080b8292/"
+                    target="_blank"
+                >
+                    <FaLinkedin />{" "}
+                </a>
+                <a
+                    href="mailto:chiscookeke11@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <FaEnvelope />{" "}
+                </a>
+            </div>
+
 
             {/* Top Left */}
             <div
-                className="float-card absolute w-[175px] h-[200px] rounded-xl overflow-hidden bg-gray-400 top-10 -left-2"
+                className="float-card absolute w-[130px] h-[130px] md:w-[175px] md:h-[200px] rounded-xl overflow-hidden bg-gray-400 top-10 -left-2"
                 style={{
                     "--rotation": "-12deg",
                     animationDuration: "5s",
@@ -33,7 +62,7 @@ export default function Hero() {
 
             {/* Top Right */}
             <div
-                className="float-card absolute w-[175px] h-[200px] rounded-xl overflow-hidden bg-gray-400 top-10 -right-2"
+                className="float-card absolute w-[130px] h-[130px] md:w-[175px] md:h-[200px] rounded-xl overflow-hidden bg-gray-400 top-10 -right-2"
                 style={{
                     "--rotation": "12deg",
                     animationDuration: "6s",
@@ -50,7 +79,7 @@ export default function Hero() {
 
             {/* Right Bottom */}
             <div
-                className="float-card absolute w-[175px] h-[200px] rounded-xl overflow-hidden bg-gray-400 bottom-40 -right-4"
+                className="float-card absolute  hidden md:block w-[130px] h-[130px] md:w-[175px] md:h-[200px] rounded-xl overflow-hidden bg-gray-400 bottom-40 -right-4"
                 style={{
                     "--rotation": "12deg",
                     animationDuration: "5.5s",
@@ -67,7 +96,7 @@ export default function Hero() {
 
             {/* Bottom Center */}
             <div
-                className="float-card absolute w-[175px] h-[200px] rounded-xl overflow-hidden bg-gray-400 bottom-3 right-[25%]"
+                className="float-card absolute w-[130px] h-[130px] md:w-[175px] md:h-[200px] rounded-xl overflow-hidden bg-gray-400 bottom-3 right-0 md:right-[25%]"
                 style={{
                     "--rotation": "-6deg",
                     animationDuration: "6.5s",
@@ -84,7 +113,7 @@ export default function Hero() {
 
             {/* Bottom Left */}
             <div
-                className="float-card absolute z-10 w-[175px] h-[200px] rounded-xl overflow-hidden bg-gray-400 bottom-20 left-0"
+                className="float-card hidden md:block absolute z-10 w-[130px] h-[130px] md:w-[175px] md:h-[200px] rounded-xl overflow-hidden bg-gray-400 bottom-20 left-0"
                 style={{
                     "--rotation": "-20deg",
                     animationDuration: "5.8s",
@@ -101,7 +130,7 @@ export default function Hero() {
 
             {/* Bottom Left Center */}
             <div
-                className="float-card absolute w-[175px] h-[200px] rounded-xl overflow-hidden bg-gray-400 bottom-5 left-[15%]"
+                className="float-card absolute w-[130px] h-[130px] md:w-[175px] md:h-[200px] rounded-xl overflow-hidden bg-gray-400 bottom-5 left-0 md:left-[15%]"
                 style={{
                     "--rotation": "20deg",
                     animationDuration: "7s",

@@ -251,143 +251,115 @@ Its design combines storytelling, book showcases, impact highlights, and clear c
 
 
     {
-        id: "",
-        briefDescription: "",
-        gallery: [""],
-        image: "",
-        impact: "",
-        role: "",
-        scope: "",
-        sector: [""],
-        Team: "",
-        technology: [""],
-        title: "",
-        url: "",
-        caseStudy: ""
+        id: "11",
+        briefDescription: "Blockchain Career Expo is an event platform focused on connecting people with career opportunities, industry insights, and professional networking within the blockchain ecosystem.",
+        gallery: [],
+        image: "https://res.cloudinary.com/dwedz2laa/video/upload/v1764437048/lusxu8wpr72imiq2ifg9.mp4",
+        impact: "Designed and developed the website independently, building the frontend interface and integrating Luma to enable event registration directly through the website.",
+        role: "Frontend Developer",
+        scope: "Website Development, Responsive UI, Event Registration Integration",
+        sector: ["Events", "Web3", "Career Development"],
+        Team: "Solo Developer",
+        technology: [
+            "Next.js",
+            "Tailwind CSS",
+            "Luma"
+        ],
+        title: "Blockchain Career Expo",
+        url: "https://bce.sofegroup.com",
+        caseStudy: `Blockchain Career Expo is an event initiative centered on career development and opportunities within the blockchain industry. It provides a digital touchpoint where prospective attendees can learn about the event and take steps to participate.
+
+The website presents event information through a dedicated web experience, helping visitors discover the expo and access its registration process. Luma is integrated into the website to support event registrations, connecting the event's promotional interface with its registration workflow.
+
+The website was developed independently using Next.js and Tailwind CSS, with a focus on responsive design, clear presentation of event information, and a straightforward registration experience.`
     },
 
 
     {
-        id: "",
-        briefDescription: "",
-        gallery: [""],
-        image: "",
-        impact: "",
-        role: "",
-        scope: "",
-        sector: [""],
-        Team: "",
-        technology: [""],
-        title: "",
-        url: "",
-        caseStudy: ""
+        id: "12",
+        briefDescription: "A backend service that analyzes blog comments using sentiment analysis to identify the emotional tone of reader feedback and make comment data easier to interpret.",
+        gallery: [],
+        image: "https://res.cloudinary.com/dwedz2laa/image/upload/v1791732018/hjqlbgult3gjsxreu0op.png",
+        impact: "Developed the backend API using FastAPI and Python, integrated Supabase for data management, and implemented sentiment analysis with VADER to classify text feedback and support automated comment analysis.",
+        role: "Backend Developer",
+        scope: "API Development, Sentiment Analysis, Database Integration",
+        sector: ["Machine Learning", "Natural Language Processing"],
+        Team: "Solo Developer",
+        technology: [
+            "Python",
+            "FastAPI",
+            "Supabase",
+            "VADER Sentiment"
+        ],
+        title: "Blog Comment Analyzer Backend",
+        url: "https://github.com/chiscookeke11/The_book_lover_comment_analyzer",
+        caseStudy: `The Blog Comment Analyzer Backend is a Python-based service designed to analyze reader comments using natural language processing techniques. It uses VADER Sentiment, a lexicon-based sentiment analysis tool, to assess the emotional tone of text and categorize feedback as positive, negative, or neutral.
+
+Built with FastAPI, the project exposes API endpoints for integrating comment analysis into an application. Supabase provides database services for managing relevant data, while VADER handles the sentiment scoring and classification.
+
+The project demonstrates how an API can combine text analysis and database integration to make unstructured reader feedback easier to process and understand.`
     },
 
 
     {
-        id: "",
-        briefDescription: "",
-        gallery: [""],
-        image: "",
-        impact: "",
-        role: "",
-        scope: "",
-        sector: [""],
-        Team: "",
-        technology: [""],
-        title: "",
-        url: "",
-        caseStudy: ""
+        id: "13",
+        briefDescription: "Ivora AI is an AI-powered customer support platform that combines conversational AI with telecom infrastructure to automate voice interactions, understand customer requests, and resolve support issues in real time.",
+        gallery: [],
+        image: "https://res.cloudinary.com/dwedz2laa/video/upload/v1791734392/uif46uotiebu6vqruaro.mp4",
+        impact: "Contributed to the frontend development of the platform, building responsive interfaces and interactive sections to communicate its AI-powered features, system architecture, and customer support workflows through a polished web experience.",
+        role: "Frontend Developer",
+        scope: "Frontend Development, Responsive UI, Component Development, Animations",
+        sector: ["Artificial Intelligence", "Customer Experience", "Telecom"],
+        Team: "2-member team",
+        technology: [
+            "Next.js",
+            "TypeScript",
+            "Tailwind CSS",
+            "Framer Motion"
+        ],
+        title: "Ivora AI",
+        url: "https://ivora-2w1q.vercel.app/",
+        caseStudy: `Ivora AI is a customer support platform designed to modernize traditional interactive voice response (IVR) systems using artificial intelligence and telecom infrastructure.
+
+The platform aims to help businesses automate customer interactions by interpreting natural-language voice requests, identifying customer intent, and responding to common support needs without requiring a human agent for every interaction.
+
+Its proposed features include smart voice recognition, multilingual support, billing management, complaint tracking, AI-powered recommendations, and real-time conversation routing. The platform also outlines a workflow that takes customers from initiating a call through intent recognition and request processing to automated resolution or transfer to a human agent.
+
+The website presents Ivora AI's vision, core features, system architecture, and potential advantages over traditional phone-menu-based support systems. Its visual design uses animated interactions and structured content sections to make the platform's technical concepts easier to explore.`
     },
 
 
-    {
-        id: "",
-        briefDescription: "",
-        gallery: [""],
-        image: "",
-        impact: "",
-        role: "",
-        scope: "",
-        sector: [""],
-        Team: "",
-        technology: [""],
-        title: "",
-        url: "",
-        caseStudy: ""
-    },
+    // {
+    //     id: "",
+    //     briefDescription: "",
+    //     gallery: [""],
+    //     image: "",
+    //     impact: "",
+    //     role: "",
+    //     scope: "",
+    //     sector: [""],
+    //     Team: "",
+    //     technology: [""],
+    //     title: "",
+    //     url: "",
+    //     caseStudy: ""
+    // },
 
 
-    {
-        id: "",
-        briefDescription: "",
-        gallery: [""],
-        image: "",
-        impact: "",
-        role: "",
-        scope: "",
-        sector: [""],
-        Team: "",
-        technology: [""],
-        title: "",
-        url: "",
-        caseStudy: ""
-    },
-
-
-    {
-        id: "",
-        briefDescription: "",
-        gallery: [""],
-        image: "",
-        impact: "",
-        role: "",
-        scope: "",
-        sector: [""],
-        Team: "",
-        technology: [""],
-        title: "",
-        url: "",
-        caseStudy: ""
-    },
-
-
-    {
-        id: "",
-        briefDescription: "",
-        gallery: [""],
-        image: "",
-        impact: "",
-        role: "",
-        scope: "",
-        sector: [""],
-        Team: "",
-        technology: [""],
-        title: "",
-        url: "",
-        caseStudy: ""
-    },
-
-
-    {
-        id: "",
-        briefDescription: "",
-        gallery: [""],
-        image: "",
-        impact: "",
-        role: "",
-        scope: "",
-        sector: [""],
-        Team: "",
-        technology: [""],
-        title: "",
-        url: "",
-        caseStudy: ""
-    },
-
-
-
-
-
+    // {
+    //     id: "",
+    //     briefDescription: "",
+    //     gallery: [""],
+    //     image: "",
+    //     impact: "",
+    //     role: "",
+    //     scope: "",
+    //     sector: [""],
+    //     Team: "",
+    //     technology: [""],
+    //     title: "",
+    //     url: "",
+    //     caseStudy: ""
+    // },
 
 ]
