@@ -1,11 +1,36 @@
 import { Link } from "react-router-dom";
 import { navbar_data } from "../../data/navbar_data";
+import { useEffect, useState } from "react";
 
 
 
 export default function Navbar() {
+
+    const [isScrolled, setIsScrolled] = useState(false)
+
+
+
+
+    // This handles the scroll observer
+    useEffect(() => {
+        const handleScroll = () => {
+            setIsScrolled(window.scrollY > 100)
+        }
+
+        window.addEventListener("scroll", handleScroll)
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll)
+        }
+    }, [])
+
+
     return (
-        <nav className="w-full py-4 px-[3%] flex items-center justify-between mb-4 "  >
+        <nav className={`w-full fixed py-4 px-[3%] flex items-center justify-between mb-4 z-20
+            font-open-sans
+             duration-100 ease-in-out border-white/15
+${isScrolled ? "border-b border-white/15 bg-white/2 backdrop-blur-3xl " : ""}
+        `}  >
 
             <a href={"/"}  >
                 Okeke Chinedu
@@ -14,7 +39,7 @@ export default function Navbar() {
 
 
 
-            <div className="w-fit flex items-center gap-6 "  >
+            <div className="w-fit hidden md:flex items-center gap-6 "  >
                 {navbar_data.map((d, i) => (
                     <a
                         href={d.path}

@@ -3,6 +3,7 @@ import WebsiteLayout from "./layouts/WebsiteLayout";
 import Home from "./pages/website/Home";
 import Projects from "./pages/website/Projects";
 import Project from "./pages/website/Project";
+import About from "./pages/website/About";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/projects/:id" element={<Project />} />
+          <Route path="/about" element={<About />} />
         </Route>
       </Routes>
     </BrowserRouter>

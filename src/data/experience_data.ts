@@ -23,7 +23,7 @@ export const experience_data: Experience[] = [
         title: "Open Source Contributor",
         logo: "/logos/drips_logo.jpg",
         duration: "Feb 2026 - Present",
-        company_name: "TechQuest STEM Academy"
+        company_name: "Drips"
     },
     {
         title: "Frontend Developer",

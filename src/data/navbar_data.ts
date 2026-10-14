@@ -5,7 +5,7 @@
 export const navbar_data = [
     {
         label: "Projects",
-        path: "#projects"
+        path: "/projects"
     },
     {
         label: "About",
