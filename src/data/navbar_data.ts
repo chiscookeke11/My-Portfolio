@@ -9,7 +9,7 @@ export const navbar_data = [
     },
     {
         label: "About",
-        path: "/"
+        path: "/about"
     },
     {
         label: "Contact",

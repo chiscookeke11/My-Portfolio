@@ -3,11 +3,11 @@
 export const footer_pages_data = [
     {
         label: "About",
-        path: ""
+        path: "/about"
     },
     {
         label: "Project",
-        path: ""
+        path: "/projects"
     },
     {
         label: "Experience",
