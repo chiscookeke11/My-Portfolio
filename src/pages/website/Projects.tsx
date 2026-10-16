@@ -1,15 +1,14 @@
-import { FaSquareArrowUpRight } from "react-icons/fa6";
+
 import ProjectCard from "../../components/website-components/ProjectCard";
 import { project_data } from "../../data/projects_data";
 import React, { useState } from "react";
 import ProjectHoverPreview from "../../components/website-components/ProjectHoverPreview";
-import { Link, Router, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 
 
 export default function Projects() {
     const [hoveredProject, setHoveredProject] = useState<(typeof project_data)[number] | null>(null)
-    const router = Router
     const navigate = useNavigate();
 
     const [pointer, setPointer] = useState({

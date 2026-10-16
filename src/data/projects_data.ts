@@ -11,7 +11,7 @@ export const project_data: Projects[] = [
         briefDescription: "Graso is a fintech and blockchain project built on the Sui blockchain, exploring the intersection of financial technology and decentralized systems to deliver accessible digital financial experiences.",
         gallery: [],
         impact: "Led frontend development, coordinating the implementation of responsive user interfaces and interactive forms to deliver a consistent and intuitive user experience.",
-        role: "Frontend Lead",
+        role: "Lead Frontend Developer",
         scope: "Frontend Development, UI Architecture, Form Handling",
         Team: "5-member team",
         caseStudy: `Graso is a fintech project built on the Sui blockchain. As the frontend lead, I was responsible for driving the development of the platform's user interface and translating product requirements into functional, responsive web experiences.
@@ -53,7 +53,7 @@ Working within a six-member team, I contribute to the development of the product
         and tools needed to thrive in the digital economy.`,
         gallery: [""],
         impact: "Delivered a responsive digital platform that showcases technology services, training programs, and learning opportunities while integrating backend services and AI-powered website support.",
-        role: "Fullstack Developer",
+        role: "Lead Fullstack Developer",
         scope: "API, Web",
         Team: "Collaborative Team",
         caseStudy: `TheGreyIT website was developed to establish a professional online presence for the organization, communicate its technology and training offerings, and improve access to relevant information.
@@ -128,7 +128,7 @@ Built with Next.js and TypeScript, the website combines reusable interface compo
         briefDescription: "Lagos Rhythm is a digital tourism platform designed to showcase Lagos destinations and experiences, helping users discover places, explore attractions, and engage with the city's tourism offerings.",
         gallery: [],
         impact: "Contributed across the frontend and backend, building responsive user interfaces, implementing authentication, integrating Firebase services, and developing features for bookings, newsletter subscriptions, and payment processing.",
-        role: "Full-Stack Developer",
+        role: "Lead Full-Stack Developer",
         scope: "Web App",
         Team: "2-member team",
         caseStudy: `Lagos Rhythm is a digital tourism platform focused on promoting Lagos as a destination by making local attractions, experiences, and tourism offerings more accessible online.
