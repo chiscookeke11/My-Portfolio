@@ -1,10 +1,61 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-*{
-  padding: 0;
-  box-sizing: border-box;
-  margin: 0;
-  font-family: "Inter", serif;
+@import "tailwindcss";
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("./assets/fonts/OpenSans-VariableFont.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TimesNewRoman";
+  src: url("./assets/fonts/times.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@theme {
+  --font-open-sans: "OpenSans", sans-serif;
+  --font-times: "TimesNewRoman", serif;
+}
+
+* {
   scroll-behavior: smooth;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "OpenSans", sans-serif;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) rotate(var(--rotation));
+  }
+
+  50% {
+    transform: translate3d(0, -18px, 0) rotate(calc(var(--rotation) + 2deg));
+  }
+}
+
+.float-card {
+  animation: float 5s ease-in-out infinite;
+  will-change: transform;
+}
+
+.font-times {
+  font-family: "TimesNewRoman", serif;
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
 }

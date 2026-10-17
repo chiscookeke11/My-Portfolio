@@ -1,27 +1,23 @@
-import React from "react";
-import Hero from "./components/Hero";
-import AboutMe from "./components/AboutMe";
-import Skills from "./components/Skills";
-import Experience from "./components/Experience";
-import Works from "./components/Works";
-import Footer from "./components/Footer";
-import Testimonials from "./components/Testimonials";
-import Navbar from "./components/Navbar";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import WebsiteLayout from "./layouts/WebsiteLayout";
+import Home from "./pages/website/Home";
+import Projects from "./pages/website/Projects";
+import Project from "./pages/website/Project";
+import About from "./pages/website/About";
 
-const App = ({ darkMode, toggleMode }) => {
+const App = () => {
   return (
-    <div
-      className={` w-full h-auto transition duration-300 ease-in-out  ${darkMode ? "bg-[#030712]" : "bg-white"} `}
-    >
-      <Navbar darkMode={darkMode} toggleMode={toggleMode} />
-      <Hero darkMode={darkMode} />
-      <AboutMe darkMode={darkMode} />
-      <Skills darkMode={darkMode} />
-      <Experience darkMode={darkMode} />
-      <Works darkMode={darkMode} />
-      {/* <Testimonials darkMode={darkMode}/> */}
-      <Footer darkMode={darkMode} />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        {/* Landing page  */}
+        <Route element={<WebsiteLayout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/projects/:id" element={<Project />} />
+          <Route path="/about" element={<About />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 };
 
