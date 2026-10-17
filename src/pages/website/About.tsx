@@ -92,6 +92,7 @@ export default function About() {
                         I enjoy collaborating with teams to take ideas
                         from concept to implementation.
                     </p>
+
                 </div>
 
 
@@ -122,6 +123,42 @@ export default function About() {
                         taking responsibility, helping others grow,
                         and making consistent progress toward a common vision.
                     </p>
+
+
+
+
+                    <div className="my-4 relative  w-full h-fit py-10  flex items-center justify-center gap-1 " >
+
+
+                        <div className=" size-30 md:size-70 bg-gray-400 flex items-center justify-center rounded-sm overflow-hidden scale-90 rotate-[2deg]  " >
+                            <img
+                                src="./leadership_and_collaboration_images/image4.jpg"
+                                className="object-center object-cover h-full w-full "
+                                alt="" />
+
+                        </div>
+
+
+                        <div className=" size-30 md:size-70 bg-gray-400 flex items-center justify-center rounded-sm overflow-hidden  scale-120  z-10" >
+                            <img
+                                src="./leadership_and_collaboration_images/DEP1 Certificate - Connect DAO.png"
+                                className="object-center object-cover h-full w-full "
+                                alt="" />
+
+                        </div>
+
+
+                        <div className=" size-30 md:size-70 bg-gray-400 flex items-center justify-center rounded-sm overflow-hidden scale-90 rotate-[-2deg] " >
+                            <img
+                                src="./leadership_and_collaboration_images/image5.jpg"
+                                className="object-center object-cover h-full w-full "
+                                alt="" />
+
+                        </div>
+
+
+                    </div>
+
                 </div>
 
 
@@ -154,6 +191,39 @@ export default function About() {
                         Sharing knowledge helps me strengthen
                         my own understanding while contributing to the growth of the next generation of developers.
                     </p>
+
+
+                    <div className="my-4 relative  w-full h-fit py-10  flex items-center justify-center gap-1 " >
+
+
+                        <div className=" size-30 md:size-70 bg-gray-400 flex items-center justify-center rounded-sm overflow-hidden scale-90 rotate-[2deg]  " >
+                            <img
+                                src="/ml_teaching_images/image2.jpeg"
+                                className="object-center object-cover h-full w-full "
+                                alt="" />
+
+                        </div>
+
+
+                        <div className=" size-30 md:size-70 bg-gray-400 flex items-center justify-center rounded-sm overflow-hidden  scale-120  z-10" >
+                            <img
+                                src="/ml_teaching_images/image3.jpeg"
+                                className="object-center object-cover h-full w-full "
+                                alt="" />
+
+                        </div>
+
+
+                        <div className=" size-30 md:size-70 bg-gray-400 flex items-center justify-center rounded-sm overflow-hidden scale-90 rotate-[-2deg] " >
+                            <img
+                                src="/ml_teaching_images/image1.jpeg"
+                                className="object-center object-cover h-full w-full "
+                                alt="" />
+
+                        </div>
+
+
+                    </div>
                 </div>
 
 

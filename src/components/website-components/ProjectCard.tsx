@@ -29,7 +29,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
                                 autoPlay
                                 loop
                                 muted
-                                className="w-full h-full   object-cover object-center rounded-[10px] "
+                                className="w-full h-full bg-gray-300   object-cover object-center rounded-[10px] "
                             ></video>
                         ) : (
                             <img
