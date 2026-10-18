@@ -13,6 +13,6 @@ export const navbar_data = [
     },
     {
         label: "Contact",
-        path: "/"
+        path: "/contact"
     },
 ]
