@@ -1,3 +1,4 @@
+import CountUp from "../../components/ui/CountUp";
 import { project_data } from "../../data/projects_data"
 
 
@@ -40,24 +41,24 @@ export default function About() {
                     <div className=" w-full grid grid-cols-2 place-items-center justify-items-center gap-4 my-10 "  >
 
                         <div className=" w-full h-full flex flex-col items-start "  >
-                            <h3 className="font-bold text-3xl md:text-5xl tracking-wide mb-2 font-times" > {project_data.length}+</h3>
+                            <h3 className="font-bold text-3xl md:text-5xl tracking-wide mb-2 font-times" >   <CountUp end={project_data.length} /></h3>
                             <h4 className="text-white opacity-[60%] text-xs md:text-sm  ">Projects & Products</h4>
                         </div>
 
                         <div className=" w-full h-full flex flex-col items-start  "  >
-                            <h3 className="font-bold text-3xl md:text-5xl tracking-wide mb-2 font-times ">5+</h3>
+                            <h3 className="font-bold text-3xl md:text-5xl tracking-wide mb-2 font-times ">  <CountUp end={5} /></h3>
                             <h4 className="text-white opacity-[60%] text-xs md:text-sm  ">Industry Sectors</h4>
                         </div>
 
 
                         <div className=" w-full h-full flex flex-col items-start  "  >
-                            <h3 className="font-bold text-3xl md:text-5xl tracking-wide mb-2 font-times">3+</h3>
+                            <h3 className="font-bold text-3xl md:text-5xl tracking-wide mb-2 font-times">  <CountUp end={3} /></h3>
                             <h4 className="text-white opacity-[60%] text-xs md:text-sm  ">Technical Disciplines</h4>
                         </div>
 
 
                         <div className=" w-full h-full flex flex-col items-start  "  >
-                            <h3 className="font-bold text-3xl md:text-5xl tracking-wide mb-2 font-times ">{yearsBuildingSoftware}+</h3>
+                            <h3 className="font-bold text-3xl md:text-5xl tracking-wide mb-2 font-times ">  <CountUp end={yearsBuildingSoftware} /></h3>
                             <h4 className="text-white opacity-[60%] text-xs md:text-sm  ">Years Building Software</h4>
                         </div>
 
@@ -254,7 +255,7 @@ export default function About() {
                     <h1 className="font-bold text-2xl md:text-3xl tracking-wide mb-2 ">What I’m Focused on Now</h1>
                     <p className="text-white opacity-[60%] text-sm md:text-base ">
                         I’m continuing to grow at the intersection of software engineering,
-                        AI/ML, and technical leadership—building useful products,
+                        AI/ML, and technical leadership, building useful products,
                         developing intelligent systems, contributing to meaningful initiatives,
                         and helping teams execute ideas effectively.
                     </p>
