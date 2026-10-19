@@ -5,6 +5,7 @@ import Projects from "./pages/website/Projects";
 import Project from "./pages/website/Project";
 import About from "./pages/website/About";
 import Contact from "./pages/website/Contact";
+import { Toaster } from "react-hot-toast";
 
 const App = () => {
   return (
@@ -19,6 +20,8 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
         </Route>
       </Routes>
+
+      <Toaster position="top-right" />
     </BrowserRouter>
   );
 };

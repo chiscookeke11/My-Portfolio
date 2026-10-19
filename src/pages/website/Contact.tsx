@@ -5,6 +5,7 @@ import { FiGithub } from "react-icons/fi"
 import { IoCopyOutline } from "react-icons/io5"
 import { LiaLinkedin } from "react-icons/lia"
 import { MdEmail, MdOutlineMailOutline } from "react-icons/md"
+import toast from "react-hot-toast";
 
 
 
@@ -37,8 +38,23 @@ export default function Contact() {
 
                         <div className="w-fit flex items-center gap-4 opacity-[60%] group-hover:opacity-[100%] " >
                             <h5 className="text-[13px] tracking-wide font-medium text-white   " >chiscookeke11@gmail.com</h5>
-                            <button>
-                                <IoCopyOutline size={14} />
+                            <button
+                                type="button"
+                                className="cursor-pointer"
+                                onClick={async (e) => {
+                                    e.preventDefault();
+                                    e.stopPropagation();
+
+                                    try {
+                                        await navigator.clipboard.writeText("chiscookeke11@gmail.com");
+                                        toast.success("Email copied successfully!");
+                                    } catch (error) {
+                                        console.error("Failed to copy email:", error);
+                                    }
+                                }}
+                                aria-label="Copy email address"
+                            >
+                                <IoCopyOutline size={20} />
                             </button>
                         </div>
                     </a>

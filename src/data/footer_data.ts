@@ -11,7 +11,7 @@ export const footer_pages_data = [
     },
     {
         label: "Experience",
-        path: ""
+        path: "/#experience"
     },
     {
         label: "Skills",
@@ -19,7 +19,7 @@ export const footer_pages_data = [
     },
     {
         label: "Contact",
-        path: ""
+        path: "/contact"
     },
 ]
 
