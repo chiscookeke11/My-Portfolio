@@ -6,10 +6,12 @@ import Project from "./pages/website/Project";
 import About from "./pages/website/About";
 import Contact from "./pages/website/Contact";
 import { Toaster } from "react-hot-toast";
+import SEO from "./components/SEO";
 
 const App = () => {
   return (
     <BrowserRouter>
+      <SEO />
       <Routes>
         {/* Landing page  */}
         <Route element={<WebsiteLayout />}>
