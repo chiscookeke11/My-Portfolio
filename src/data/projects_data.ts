@@ -328,22 +328,38 @@ Its proposed features include smart voice recognition, multilingual support, bil
 The website presents Ivora AI's vision, core features, system architecture, and potential advantages over traditional phone-menu-based support systems. Its visual design uses animated interactions and structured content sections to make the platform's technical concepts easier to explore.`
     },
 
+    {
+        id: "14",
+        title: "Raggy",
+        briefDescription: "Raggy is a local-first, transparent Retrieval-Augmented Generation (RAG) application. Upload documents, ask questions, and inspect the entire process behind every response, including retrieved chunks, similarity scores, prompts, and execution timings.",
+        gallery: [],
+        image: "https://res.cloudinary.com/dwedz2laa/video/upload/v1795770322/hsmif3rzcgfjxmzpqxmo.mp4",
+        impact: "Demonstrates how transparent and locally hosted RAG systems can improve the explainability, debugging, and evaluation of document-based AI applications while keeping user documents and model interactions local.",
+        role: "Full-Stack Developer & AI Engineer",
+        scope: "Frontend Development, Backend Development, Retrieval-Augmented Generation (RAG), AI Engineering, Local LLM Integration",
+        sector: ["Artificial Intelligence"],
+        Team: "Solo Developer",
+        technology: [
+            "Next.js",
+            "FastAPI",
+            "Python",
+            "Ollama",
+            "Nomic Embed Text"
+        ],
+        url: "https://github.com/chiscookeke11/Raggy",
+        caseStudy: `Raggy is a local-first Retrieval-Augmented Generation (RAG) application built to make document-based AI interactions transparent, inspectable, and easier to understand.
 
-    // {
-    //     id: "",
-    //     briefDescription: "",
-    //     gallery: [""],
-    //     image: "",
-    //     impact: "",
-    //     role: "",
-    //     scope: "",
-    //     sector: [""],
-    //     Team: "",
-    //     technology: [""],
-    //     title: "",
-    //     url: "",
-    //     caseStudy: ""
-    // },
+The application allows users to upload documents, process their contents into smaller text chunks, generate vector embeddings, and ask natural-language questions about the uploaded information. Through semantic search, Raggy retrieves relevant document chunks and supplies them as context to a locally running language model, enabling it to generate responses grounded in the uploaded content.
+
+Unlike conventional RAG applications that conceal their internal processes, Raggy prioritizes transparency and observability. Users can inspect the retrieved chunks, examine their similarity scores, view the exact prompts passed to the language model, and monitor execution timings. This provides insight into how information is retrieved, how responses are generated, and where potential inaccuracies or retrieval issues may originate.
+
+The application combines a Next.js frontend with a FastAPI backend, using Ollama to run local language models and Nomic embedding models to power semantic document retrieval. Its local-first architecture reduces reliance on external cloud-based AI services, allowing document processing and model inference to run locally.
+
+Raggy brings together the core components of a practical RAG pipeline, including document processing, text chunking, embedding generation, vector similarity search, context construction, and AI-powered response generation in an interactive application.
+
+Through this project, the focus was not just on building another document chatbot, but on creating a system that makes the inner workings of Retrieval-Augmented Generation visible, understandable, and easier to debug.`
+    }
+
 
 
     // {
